@@ -1,0 +1,801 @@
+Timestamp,Task ID,Machine ID,Operator ID,Task Type,Site Type,Weather,Terrain,Shift,Ambient Temperature (C),Operator Skill,Machine Age (yrs),Engine Hours,Fuel Used (L),Load Cycles,Idling Time (min),Proximity Distance (m),Seatbelt Status,Safety Alert Triggered,Estimated Time (min),Actual Time (min),anomaly_flag
+2025-05-01 18:49:00,T0001,EXC103,OP1007,Trenching,Mining,Windy,Flat,Day,16.9,Expert,3,1529.1,4.6,11,10,48.7,Unfastened,Yes,45,47.9,Normal
+2025-05-26 02:13:00,T0002,EXC103,OP1002,Grading,Mining,Windy,Incline,Night,29.2,Expert,3,1568.0,4.2,9,1,34.4,Unfastened,Yes,35,46.9,Normal
+2025-05-17 13:23:00,T0003,EXC103,OP1006,Demolition,Underground Hard-Rock Mining,Windy,Incline,Night,26.1,Beginner,3,1531.2,2.7,6,4,2.1,Fastened,Yes,90,153.4,Normal
+2025-05-26 23:45:00,T0004,EXC103,OP1005,Grading,Construction,Sunny,Flat,Day,36.0,Beginner,3,1527.1,2.5,5,17,15.2,Fastened,No,35,51.8,Normal
+2025-05-29 13:34:00,T0005,EXC100,OP1000,Grading,Underground Hard-Rock Mining,Windy,Incline,Day,26.7,Intermediate,4,1560.6,5.4,10,8,43.2,Fastened,No,35,46.8,Normal
+2025-05-17 15:19:00,T0006,EXC105,OP1006,Demolition,Construction,Cloudy,Incline,Day,35.5,Beginner,5,1538.3,8.0,14,37,2.5,Fastened,Yes,90,163.1,Unusual
+2025-05-01 09:26:00,T0007,EXC101,OP1006,Trenching,Mining,Windy,Incline,Day,22.9,Beginner,8,1550.9,7.3,14,3,27.2,Fastened,No,45,87.6,Normal
+2025-05-16 17:39:00,T0008,EXC101,OP1001,Demolition,Mining,Rainy,Flat,Night,34.1,Expert,8,1580.4,4.7,12,10,18.1,Unfastened,Yes,90,111.0,Normal
+2025-05-17 18:16:00,T0009,EXC100,OP1000,Material Loading,Mining,Rainy,Flat,Night,30.0,Intermediate,4,1541.7,2.7,5,23,12.6,Fastened,No,30,44.3,Normal
+2025-05-03 13:04:00,T0010,EXC100,OP1003,Earth Excavation,Construction,Rainy,Incline,Day,27.2,Intermediate,4,1530.1,5.3,1,120,31.9,Fastened,Yes,60,130.0,Unusual
+2025-05-16 05:16:00,T0011,EXC101,OP1003,Grading,Underground Hard-Rock Mining,Cloudy,Incline,Day,21.3,Intermediate,8,1598.3,4.1,6,15,41.8,Fastened,No,35,50.5,Normal
+2025-05-12 03:48:00,T0012,EXC103,OP1002,Grading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,19.2,Expert,3,1522.6,2.9,7,3,7.3,Fastened,No,35,46.3,Normal
+2025-05-06 21:55:00,T0013,EXC100,OP1000,Trenching,Underground Hard-Rock Mining,Cloudy,Rocky,Day,18.9,Intermediate,4,1598.2,2.2,4,15,5.1,Fastened,No,45,58.1,Normal
+2025-05-30 20:42:00,T0014,EXC102,OP1007,Grading,Construction,Windy,Flat,Day,36.0,Expert,8,1508.4,4.5,8,30,47.0,Fastened,No,35,53.6,Normal
+2025-05-02 18:40:00,T0015,EXC101,OP1004,Trenching,Construction,Rainy,Incline,Day,33.7,Beginner,8,1523.7,2.4,5,3,37.3,Fastened,No,45,84.5,Normal
+2025-05-04 09:55:00,T0016,EXC102,OP1002,Demolition,Construction,Cloudy,Incline,Day,35.5,Expert,8,1535.0,1.0,1,17,14.4,Fastened,No,90,115.2,Normal
+2025-05-27 05:30:00,T0017,EXC100,OP1007,Earth Excavation,Construction,Windy,Flat,Day,31.6,Expert,4,1595.3,5.3,13,11,48.2,Fastened,No,60,63.3,Normal
+2025-05-26 01:43:00,T0018,EXC100,OP1006,Material Loading,Construction,Windy,Flat,Day,33.9,Beginner,4,1584.4,1.9,3,16,7.4,Fastened,No,30,44.5,Normal
+2025-05-12 17:38:00,T0019,EXC101,OP1001,Trenching,Mining,Sunny,Flat,Night,23.1,Expert,8,1580.9,1.2,3,5,4.5,Fastened,No,45,43.0,Normal
+2025-05-16 19:06:00,T0020,EXC103,OP1006,Trenching,Underground Hard-Rock Mining,Rainy,Incline,Day,21.4,Beginner,3,1546.6,6.8,14,6,41.2,Unfastened,Yes,45,85.6,Normal
+2025-05-21 21:49:00,T0021,EXC103,OP1002,Demolition,Mining,Sunny,Flat,Day,28.0,Expert,3,1541.1,2.1,3,20,48.8,Fastened,No,90,81.3,Normal
+2025-05-15 22:16:00,T0022,EXC102,OP1007,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Day,22.9,Expert,8,1596.3,3.5,7,11,22.4,Fastened,No,35,50.9,Normal
+2025-05-06 16:05:00,T0023,EXC100,OP1005,Demolition,Mining,Sunny,Flat,Night,40.6,Beginner,4,1542.0,5.3,12,16,6.4,Unfastened,Yes,90,119.1,Normal
+2025-05-10 11:36:00,T0024,EXC105,OP1005,Grading,Construction,Sunny,Rocky,Day,28.7,Beginner,5,1547.3,0.9,1,12,44.4,Fastened,No,35,57.0,Normal
+2025-05-29 03:18:00,T0025,EXC101,OP1001,Material Loading,Mining,Rainy,Flat,Day,32.8,Expert,8,1594.4,5.2,12,17,29.0,Fastened,No,30,46.4,Normal
+2025-05-04 00:40:00,T0026,EXC102,OP1004,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Night,15.8,Beginner,8,1590.5,4.5,12,6,31.1,Unfastened,Yes,30,37.2,Normal
+2025-05-20 05:50:00,T0027,EXC101,OP1000,Demolition,Construction,Rainy,Rocky,Day,29.9,Intermediate,8,1569.3,1.3,2,19,36.9,Fastened,No,90,144.0,Normal
+2025-05-28 03:56:00,T0028,EXC102,OP1000,Earth Excavation,Construction,Cloudy,Flat,Night,34.4,Intermediate,8,1534.1,6.0,14,16,12.3,Fastened,No,60,71.8,Normal
+2025-05-11 05:57:00,T0029,EXC100,OP1003,Demolition,Underground Hard-Rock Mining,Cloudy,Flat,Day,24.0,Intermediate,4,1567.7,2.2,4,17,22.7,Fastened,No,90,104.3,Normal
+2025-05-08 23:30:00,T0030,EXC103,OP1004,Demolition,Mining,Cloudy,Incline,Day,23.9,Beginner,3,1549.4,8.3,7,110,34.6,Fastened,Yes,90,180.6,Unusual
+2025-05-13 06:57:00,T0031,EXC100,OP1003,Demolition,Underground Hard-Rock Mining,Rainy,Rocky,Night,19.6,Intermediate,4,1508.5,2.1,3,17,44.1,Fastened,No,90,141.9,Normal
+2025-05-02 04:04:00,T0032,EXC103,OP1003,Grading,Underground Hard-Rock Mining,Cloudy,Flat,Day,21.1,Intermediate,3,1570.5,5.5,10,47,23.7,Unfastened,Yes,35,49.8,Normal
+2025-05-22 07:55:00,T0033,EXC104,OP1003,Earth Excavation,Mining,Cloudy,Incline,Day,29.5,Intermediate,6,1528.6,4.7,8,15,40.2,Fastened,No,60,88.8,Normal
+2025-05-27 09:58:00,T0034,EXC105,OP1004,Demolition,Mining,Cloudy,Incline,Day,31.9,Beginner,5,1507.5,4.3,9,4,45.8,Fastened,No,90,156.1,Normal
+2025-05-24 22:41:00,T0035,EXC105,OP1007,Grading,Mining,Windy,Rocky,Day,19.4,Expert,5,1558.4,5.4,12,8,22.9,Fastened,No,35,51.2,Normal
+2025-05-23 02:31:00,T0036,EXC104,OP1004,Material Loading,Construction,Sunny,Rocky,Day,22.5,Beginner,6,1558.1,4.7,9,10,7.9,Fastened,No,30,46.8,Normal
+2025-05-17 19:13:00,T0037,EXC100,OP1006,Material Loading,Mining,Cloudy,Flat,Day,31.7,Beginner,4,1575.0,2.4,3,16,47.3,Fastened,No,30,43.9,Normal
+2025-05-28 04:05:00,T0038,EXC102,OP1000,Demolition,Construction,Sunny,Flat,Day,33.1,Intermediate,8,1561.8,4.7,12,6,41.7,Fastened,No,90,102.2,Normal
+2025-05-23 12:09:00,T0039,EXC100,OP1003,Grading,Construction,Sunny,Rocky,Night,27.2,Intermediate,4,1542.1,3.7,5,19,11.0,Fastened,No,35,53.9,Normal
+2025-05-06 01:41:00,T0040,EXC102,OP1006,Material Loading,Construction,Cloudy,Flat,Day,21.2,Beginner,8,1578.4,5.3,12,7,23.2,Fastened,No,30,45.5,Normal
+2025-05-15 00:56:00,T0041,EXC100,OP1001,Grading,Mining,Windy,Rocky,Day,24.3,Expert,4,1558.0,4.6,11,1,6.8,Fastened,No,35,37.3,Normal
+2025-05-30 21:19:00,T0042,EXC102,OP1000,Material Loading,Mining,Cloudy,Rocky,Day,32.4,Intermediate,8,1522.4,2.2,5,3,6.5,Fastened,No,30,39.7,Normal
+2025-05-28 10:24:00,T0043,EXC101,OP1003,Trenching,Construction,Sunny,Rocky,Day,26.5,Intermediate,8,1587.4,5.8,13,0,4.7,Fastened,No,45,59.4,Normal
+2025-05-01 11:02:00,T0044,EXC105,OP1006,Trenching,Underground Hard-Rock Mining,Windy,Rocky,Day,22.2,Beginner,5,1574.7,6.3,14,3,37.6,Fastened,No,45,72.5,Normal
+2025-05-02 07:31:00,T0045,EXC101,OP1004,Trenching,Underground Hard-Rock Mining,Rainy,Incline,Day,18.2,Beginner,8,1502.0,5.5,9,36,27.0,Unfastened,Yes,45,95.5,Normal
+2025-05-05 12:48:00,T0046,EXC101,OP1003,Material Loading,Mining,Sunny,Rocky,Day,24.0,Intermediate,8,1553.7,2.2,2,16,17.2,Fastened,No,30,51.9,Normal
+2025-05-14 12:43:00,T0047,EXC101,OP1001,Material Loading,Underground Hard-Rock Mining,Windy,Flat,Day,18.9,Expert,8,1548.8,4.9,14,4,9.1,Fastened,No,30,23.3,Normal
+2025-05-08 17:47:00,T0048,EXC105,OP1007,Trenching,Underground Hard-Rock Mining,Windy,Incline,Night,25.4,Expert,5,1525.8,5.1,8,25,24.1,Fastened,No,45,67.0,Normal
+2025-05-17 00:20:00,T0049,EXC104,OP1003,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Night,31.2,Intermediate,6,1576.8,3.0,6,17,24.3,Fastened,No,45,62.6,Normal
+2025-05-01 06:09:00,T0050,EXC101,OP1004,Grading,Mining,Rainy,Rocky,Day,30.2,Beginner,8,1513.9,4.9,9,28,17.8,Fastened,No,35,83.3,Normal
+2025-05-29 13:12:00,T0051,EXC105,OP1004,Grading,Construction,Windy,Rocky,Night,33.3,Beginner,5,1572.2,6.6,12,36,39.9,Unfastened,Yes,35,67.0,Normal
+2025-05-15 23:24:00,T0052,EXC104,OP1004,Material Loading,Construction,Cloudy,Rocky,Night,27.8,Beginner,6,1531.6,4.7,10,9,23.4,Fastened,No,30,55.9,Normal
+2025-05-05 19:25:00,T0053,EXC100,OP1000,Earth Excavation,Mining,Sunny,Incline,Day,34.5,Intermediate,4,1562.4,2.0,3,11,36.7,Fastened,No,60,78.4,Normal
+2025-05-05 06:28:00,T0054,EXC103,OP1000,Material Loading,Mining,Windy,Rocky,Night,32.6,Intermediate,3,1570.7,5.8,11,27,43.9,Fastened,No,30,47.2,Normal
+2025-05-17 17:10:00,T0055,EXC103,OP1006,Demolition,Underground Hard-Rock Mining,Windy,Flat,Day,9.1,Beginner,3,1577.2,4.6,11,20,27.4,Fastened,No,90,130.4,Normal
+2025-05-09 18:58:00,T0056,EXC101,OP1005,Trenching,Underground Hard-Rock Mining,Rainy,Rocky,Day,15.8,Beginner,8,1550.6,4.4,9,5,46.0,Unfastened,Yes,45,91.6,Normal
+2025-05-28 03:27:00,T0057,EXC101,OP1006,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Day,20.4,Beginner,8,1516.6,1.9,4,2,43.6,Fastened,No,60,113.2,Normal
+2025-05-03 03:08:00,T0058,EXC100,OP1006,Demolition,Construction,Sunny,Flat,Day,32.6,Beginner,4,1533.3,2.1,4,15,37.0,Fastened,No,90,124.0,Normal
+2025-05-26 12:08:00,T0059,EXC102,OP1007,Material Loading,Underground Hard-Rock Mining,Windy,Incline,Day,16.0,Expert,8,1503.4,1.2,1,9,31.8,Fastened,No,30,40.1,Normal
+2025-05-22 21:55:00,T0060,EXC104,OP1006,Earth Excavation,Mining,Cloudy,Flat,Day,24.5,Beginner,6,1542.7,4.6,8,45,23.9,Unfastened,Yes,60,94.8,Normal
+2025-05-20 17:51:00,T0061,EXC101,OP1002,Earth Excavation,Underground Hard-Rock Mining,Rainy,Incline,Day,14.3,Expert,8,1549.7,2.6,3,3,43.2,Fastened,No,60,84.3,Normal
+2025-05-25 00:49:00,T0062,EXC105,OP1002,Trenching,Mining,Windy,Incline,Night,32.6,Expert,5,1584.0,4.5,7,21,5.7,Unfastened,Yes,45,57.9,Normal
+2025-05-14 22:14:00,T0063,EXC102,OP1004,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Night,22.1,Beginner,8,1580.7,4.2,4,57,20.6,Unfastened,Yes,30,61.3,Unusual
+2025-05-04 07:45:00,T0064,EXC100,OP1006,Demolition,Mining,Cloudy,Incline,Day,28.7,Beginner,4,1542.1,2.5,2,48,18.5,Fastened,Yes,90,166.4,Normal
+2025-05-09 03:42:00,T0065,EXC103,OP1003,Demolition,Construction,Sunny,Rocky,Day,28.2,Intermediate,3,1597.5,5.4,12,3,24.6,Fastened,No,90,113.3,Normal
+2025-05-21 01:29:00,T0066,EXC100,OP1002,Earth Excavation,Construction,Windy,Flat,Day,30.8,Expert,4,1521.8,3.7,6,36,14.0,Fastened,No,60,74.0,Normal
+2025-05-12 16:18:00,T0067,EXC101,OP1005,Demolition,Mining,Rainy,Rocky,Day,29.7,Beginner,8,1572.0,1.6,5,0,45.1,Fastened,No,90,168.7,Normal
+2025-05-22 18:27:00,T0068,EXC100,OP1004,Demolition,Construction,Cloudy,Flat,Night,34.9,Beginner,4,1540.4,5.5,14,14,12.6,Fastened,No,90,127.8,Normal
+2025-05-17 23:03:00,T0069,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,24.5,Intermediate,4,1573.3,0.8,1,6,8.5,Fastened,No,30,42.3,Normal
+2025-05-17 22:58:00,T0070,EXC102,OP1004,Trenching,Construction,Sunny,Rocky,Day,31.2,Beginner,8,1507.5,1.3,1,10,4.3,Fastened,No,45,79.3,Normal
+2025-05-20 19:05:00,T0071,EXC103,OP1004,Grading,Construction,Cloudy,Rocky,Day,26.4,Beginner,3,1591.7,6.7,13,31,26.3,Fastened,No,35,66.5,Normal
+2025-05-09 03:04:00,T0072,EXC104,OP1006,Earth Excavation,Mining,Rainy,Incline,Day,36.4,Beginner,6,1505.2,5.0,10,0,28.6,Fastened,No,60,115.3,Normal
+2025-05-21 08:01:00,T0073,EXC105,OP1006,Demolition,Mining,Cloudy,Incline,Night,35.6,Beginner,5,1584.5,1.6,2,14,32.7,Fastened,No,90,156.6,Normal
+2025-05-10 13:29:00,T0074,EXC104,OP1002,Material Loading,Construction,Windy,Incline,Day,19.9,Expert,6,1557.2,4.4,8,15,44.4,Fastened,No,30,46.5,Normal
+2025-05-10 18:57:00,T0075,EXC105,OP1003,Trenching,Underground Hard-Rock Mining,Cloudy,Rocky,Night,25.2,Intermediate,5,1507.0,6.3,14,8,20.4,Fastened,No,45,71.5,Normal
+2025-05-15 01:35:00,T0076,EXC100,OP1003,Trenching,Mining,Rainy,Incline,Day,28.2,Intermediate,4,1573.8,6.2,14,0,35.9,Fastened,No,45,69.6,Normal
+2025-05-29 10:40:00,T0077,EXC100,OP1007,Demolition,Underground Hard-Rock Mining,Rainy,Flat,Day,17.2,Expert,4,1595.6,3.0,5,30,21.2,Fastened,No,90,119.3,Normal
+2025-05-18 02:22:00,T0078,EXC103,OP1003,Material Loading,Mining,Windy,Incline,Day,26.7,Intermediate,3,1583.1,6.7,14,5,39.1,Fastened,No,30,41.9,Normal
+2025-05-12 06:36:00,T0079,EXC105,OP1004,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,22.5,Beginner,5,1549.1,0.5,1,3,11.6,Fastened,No,60,92.3,Normal
+2025-05-27 06:03:00,T0080,EXC104,OP1005,Trenching,Mining,Cloudy,Incline,Day,22.4,Beginner,6,1547.7,4.2,3,62,27.8,Fastened,Yes,45,95.1,Unusual
+2025-05-12 01:45:00,T0081,EXC103,OP1007,Material Loading,Construction,Sunny,Rocky,Day,33.5,Expert,3,1507.6,0.5,1,1,26.0,Fastened,No,30,32.9,Unusual
+2025-05-09 02:23:00,T0082,EXC102,OP1001,Demolition,Mining,Sunny,Rocky,Day,34.3,Expert,8,1586.8,6.9,12,38,35.0,Fastened,No,90,114.9,Normal
+2025-05-15 14:30:00,T0083,EXC105,OP1002,Grading,Mining,Cloudy,Incline,Night,35.2,Expert,5,1500.5,5.5,11,5,0.6,Fastened,Yes,35,49.4,Normal
+2025-05-19 09:23:00,T0084,EXC101,OP1006,Demolition,Underground Hard-Rock Mining,Rainy,Flat,Day,23.7,Beginner,8,1511.6,2.2,2,20,38.2,Unfastened,Yes,90,152.7,Normal
+2025-05-21 13:37:00,T0085,EXC101,OP1000,Grading,Underground Hard-Rock Mining,Windy,Rocky,Night,19.2,Intermediate,8,1577.1,2.3,4,7,3.8,Fastened,No,35,45.1,Normal
+2025-05-15 19:13:00,T0086,EXC102,OP1007,Trenching,Construction,Rainy,Incline,Night,34.8,Expert,8,1575.0,2.2,3,18,18.9,Fastened,No,45,67.7,Normal
+2025-05-20 09:30:00,T0087,EXC101,OP1002,Trenching,Construction,Rainy,Rocky,Night,22.8,Expert,8,1516.4,3.9,7,34,42.1,Fastened,No,45,67.7,Normal
+2025-05-09 09:22:00,T0088,EXC102,OP1002,Earth Excavation,Mining,Rainy,Flat,Night,33.7,Expert,8,1585.7,2.3,4,10,11.0,Fastened,No,60,72.2,Normal
+2025-05-19 14:31:00,T0089,EXC100,OP1000,Grading,Underground Hard-Rock Mining,Rainy,Incline,Night,23.3,Intermediate,4,1577.7,6.7,11,37,31.5,Fastened,No,35,66.9,Normal
+2025-05-01 14:46:00,T0090,EXC105,OP1000,Earth Excavation,Mining,Rainy,Rocky,Day,33.5,Intermediate,5,1516.1,3.6,6,17,23.0,Fastened,No,60,93.8,Normal
+2025-05-26 21:35:00,T0091,EXC101,OP1004,Trenching,Underground Hard-Rock Mining,Rainy,Incline,Night,28.1,Beginner,8,1595.3,4.7,9,0,5.7,Fastened,No,45,87.5,Normal
+2025-05-21 22:21:00,T0092,EXC103,OP1003,Earth Excavation,Construction,Rainy,Flat,Day,24.2,Intermediate,3,1508.8,4.5,13,1,48.9,Fastened,No,60,82.5,Normal
+2025-05-24 01:37:00,T0093,EXC101,OP1005,Trenching,Construction,Cloudy,Rocky,Day,31.4,Beginner,8,1570.6,3.2,6,18,30.8,Fastened,No,45,80.2,Normal
+2025-05-26 17:19:00,T0094,EXC103,OP1001,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,21.1,Expert,3,1566.1,2.7,4,18,8.6,Unfastened,Yes,35,58.1,Normal
+2025-05-26 20:37:00,T0095,EXC101,OP1002,Grading,Mining,Cloudy,Flat,Night,24.8,Expert,8,1579.0,2.5,7,0,1.5,Fastened,Yes,35,30.5,Normal
+2025-05-03 06:40:00,T0096,EXC102,OP1002,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,28.0,Expert,8,1541.8,2.5,1,36,36.9,Fastened,No,35,58.7,Normal
+2025-05-26 09:41:00,T0097,EXC103,OP1003,Trenching,Underground Hard-Rock Mining,Sunny,Flat,Day,21.5,Intermediate,3,1587.3,2.6,2,31,49.6,Fastened,No,45,54.4,Normal
+2025-05-24 08:57:00,T0098,EXC104,OP1007,Earth Excavation,Construction,Cloudy,Rocky,Day,23.2,Expert,6,1523.8,6.4,14,14,5.3,Fastened,No,60,72.7,Normal
+2025-05-21 10:12:00,T0099,EXC105,OP1006,Earth Excavation,Construction,Windy,Incline,Day,31.9,Beginner,5,1525.8,2.5,5,0,30.1,Fastened,No,60,98.3,Normal
+2025-05-28 11:18:00,T0100,EXC101,OP1002,Material Loading,Construction,Rainy,Rocky,Day,27.2,Expert,8,1566.9,4.7,9,11,8.8,Fastened,No,30,38.0,Normal
+2025-05-05 11:39:00,T0101,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,25.5,Intermediate,4,1544.6,2.7,6,4,13.9,Fastened,No,30,34.2,Normal
+2025-05-19 00:59:00,T0102,EXC104,OP1001,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Day,18.6,Expert,6,1508.9,1.4,1,14,26.0,Fastened,No,60,74.7,Normal
+2025-05-03 12:09:00,T0103,EXC103,OP1006,Grading,Construction,Cloudy,Flat,Day,30.3,Beginner,3,1516.2,1.9,5,1,22.5,Fastened,No,35,46.9,Normal
+2025-05-27 15:26:00,T0104,EXC102,OP1001,Trenching,Construction,Rainy,Rocky,Day,31.1,Expert,8,1586.9,4.8,8,29,30.2,Fastened,No,45,68.0,Normal
+2025-05-10 16:38:00,T0105,EXC105,OP1007,Demolition,Mining,Windy,Flat,Day,35.0,Expert,5,1578.2,4.9,13,6,32.7,Fastened,No,90,99.0,Normal
+2025-05-22 20:36:00,T0106,EXC102,OP1000,Demolition,Mining,Cloudy,Rocky,Day,29.3,Intermediate,8,1500.6,1.5,1,9,22.7,Fastened,No,90,122.5,Unusual
+2025-05-07 10:47:00,T0107,EXC102,OP1000,Grading,Construction,Rainy,Incline,Day,35.4,Intermediate,8,1546.3,2.7,3,15,42.4,Fastened,No,35,55.1,Normal
+2025-05-06 23:14:00,T0108,EXC105,OP1007,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,22.9,Expert,5,1519.6,4.9,7,45,24.2,Fastened,No,45,75.8,Normal
+2025-05-27 09:30:00,T0109,EXC105,OP1001,Demolition,Mining,Windy,Rocky,Day,30.9,Expert,5,1531.1,3.2,4,25,48.8,Fastened,No,90,115.5,Normal
+2025-05-24 21:34:00,T0110,EXC103,OP1006,Trenching,Mining,Cloudy,Incline,Night,36.6,Beginner,3,1510.7,4.9,10,4,40.9,Unfastened,Yes,45,77.4,Normal
+2025-05-16 07:15:00,T0111,EXC104,OP1007,Trenching,Underground Hard-Rock Mining,Cloudy,Flat,Day,22.2,Expert,6,1522.8,4.1,9,20,18.4,Fastened,No,45,51.8,Normal
+2025-05-26 05:53:00,T0112,EXC104,OP1002,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,23.3,Expert,6,1509.6,1.8,4,3,43.5,Fastened,No,35,48.0,Normal
+2025-05-21 15:04:00,T0113,EXC104,OP1006,Earth Excavation,Mining,Rainy,Incline,Day,32.8,Beginner,6,1525.7,6.7,13,18,49.4,Fastened,No,60,121.5,Normal
+2025-05-21 00:42:00,T0114,EXC105,OP1001,Demolition,Mining,Cloudy,Flat,Day,26.1,Expert,5,1534.1,5.3,14,2,4.4,Fastened,No,90,96.4,Normal
+2025-05-06 16:43:00,T0115,EXC100,OP1002,Earth Excavation,Construction,Cloudy,Flat,Day,36.2,Expert,4,1567.0,4.5,12,5,44.1,Fastened,No,60,62.3,Normal
+2025-05-25 16:36:00,T0116,EXC102,OP1001,Trenching,Construction,Cloudy,Rocky,Day,40.6,Expert,8,1573.1,6.2,14,8,31.9,Fastened,No,45,55.9,Normal
+2025-05-03 14:14:00,T0117,EXC101,OP1000,Earth Excavation,Mining,Cloudy,Incline,Night,27.3,Intermediate,8,1515.2,3.2,5,26,12.6,Fastened,No,60,90.9,Normal
+2025-05-19 13:02:00,T0118,EXC100,OP1007,Demolition,Construction,Windy,Rocky,Day,31.4,Expert,4,1511.8,3.1,7,6,27.9,Fastened,No,90,107.4,Normal
+2025-05-27 16:27:00,T0119,EXC101,OP1005,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Night,23.3,Beginner,8,1585.1,5.0,10,13,27.2,Fastened,No,35,75.0,Normal
+2025-05-06 13:09:00,T0120,EXC102,OP1005,Grading,Mining,Rainy,Incline,Day,35.4,Beginner,8,1517.4,1.4,2,5,29.0,Fastened,No,35,71.7,Normal
+2025-05-22 01:44:00,T0121,EXC105,OP1003,Earth Excavation,Construction,Rainy,Rocky,Day,17.4,Intermediate,5,1514.6,2.3,5,2,25.6,Fastened,No,60,91.5,Normal
+2025-05-17 14:43:00,T0122,EXC103,OP1007,Demolition,Construction,Cloudy,Rocky,Day,29.7,Expert,3,1585.1,5.1,13,0,28.4,Fastened,No,90,105.8,Normal
+2025-05-31 01:13:00,T0123,EXC100,OP1001,Trenching,Underground Hard-Rock Mining,Rainy,Rocky,Day,19.2,Expert,4,1512.1,6.1,14,6,34.7,Fastened,No,45,66.0,Normal
+2025-05-17 10:32:00,T0124,EXC103,OP1004,Grading,Construction,Sunny,Incline,Night,36.7,Beginner,3,1579.2,7.7,14,21,9.3,Fastened,No,35,51.7,Normal
+2025-05-28 06:28:00,T0125,EXC104,OP1005,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Day,26.3,Beginner,6,1513.7,3.2,7,19,41.8,Fastened,No,45,72.5,Normal
+2025-05-01 17:11:00,T0126,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Sunny,Incline,Day,24.6,Intermediate,4,1526.6,2.9,5,13,24.1,Fastened,No,30,39.7,Normal
+2025-05-11 00:16:00,T0127,EXC103,OP1004,Demolition,Construction,Rainy,Flat,Night,32.3,Beginner,3,1580.9,4.9,13,6,13.0,Fastened,No,90,143.2,Normal
+2025-05-20 07:05:00,T0128,EXC102,OP1007,Earth Excavation,Mining,Cloudy,Incline,Day,32.5,Expert,8,1515.0,6.4,12,14,36.0,Fastened,No,60,78.0,Normal
+2025-05-06 15:48:00,T0129,EXC102,OP1002,Earth Excavation,Mining,Sunny,Rocky,Day,24.6,Expert,8,1555.0,3.3,6,28,1.5,Fastened,Yes,60,79.5,Normal
+2025-05-25 15:44:00,T0130,EXC101,OP1001,Material Loading,Construction,Sunny,Rocky,Day,26.2,Expert,8,1596.0,3.6,7,0,40.7,Fastened,No,30,40.7,Normal
+2025-05-22 00:41:00,T0131,EXC101,OP1002,Earth Excavation,Construction,Windy,Incline,Day,34.3,Expert,8,1538.9,2.8,2,57,6.5,Fastened,Yes,60,94.9,Unusual
+2025-05-09 18:18:00,T0132,EXC105,OP1001,Earth Excavation,Mining,Windy,Incline,Day,29.2,Expert,5,1575.5,5.7,5,76,3.2,Fastened,Yes,60,104.0,Unusual
+2025-05-21 08:07:00,T0133,EXC105,OP1005,Material Loading,Construction,Sunny,Flat,Night,31.6,Beginner,5,1509.2,0.8,2,4,42.1,Fastened,No,30,41.8,Normal
+2025-05-02 10:44:00,T0134,EXC102,OP1000,Material Loading,Mining,Cloudy,Rocky,Night,38.5,Intermediate,8,1563.6,2.4,5,3,36.5,Fastened,No,30,41.9,Normal
+2025-05-12 22:32:00,T0135,EXC102,OP1003,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Day,25.6,Intermediate,8,1518.8,4.2,9,9,26.4,Fastened,No,45,64.9,Normal
+2025-05-26 03:31:00,T0136,EXC105,OP1000,Earth Excavation,Mining,Rainy,Flat,Day,31.2,Intermediate,5,1575.6,2.8,7,12,32.3,Fastened,No,60,83.0,Normal
+2025-05-13 23:13:00,T0137,EXC105,OP1007,Material Loading,Mining,Rainy,Rocky,Day,22.4,Expert,5,1579.4,2.6,4,10,25.8,Fastened,No,30,40.0,Normal
+2025-05-17 09:05:00,T0138,EXC103,OP1006,Grading,Construction,Windy,Rocky,Day,31.5,Beginner,3,1560.2,6.2,12,34,17.0,Unfastened,Yes,35,67.2,Normal
+2025-05-01 15:01:00,T0139,EXC105,OP1001,Demolition,Underground Hard-Rock Mining,Cloudy,Flat,Day,18.4,Expert,5,1508.9,1.0,4,1,38.4,Fastened,No,90,86.0,Normal
+2025-05-09 21:28:00,T0140,EXC105,OP1000,Grading,Underground Hard-Rock Mining,Windy,Incline,Day,27.3,Intermediate,5,1599.1,6.7,12,9,18.4,Fastened,No,35,59.8,Normal
+2025-05-25 11:05:00,T0141,EXC104,OP1002,Material Loading,Construction,Sunny,Rocky,Day,32.1,Expert,6,1578.3,1.7,3,6,43.7,Fastened,No,30,33.2,Normal
+2025-05-02 16:56:00,T0142,EXC101,OP1004,Demolition,Construction,Windy,Rocky,Day,32.0,Beginner,8,1572.8,2.9,2,48,23.9,Fastened,Yes,90,164.1,Normal
+2025-05-17 09:32:00,T0143,EXC103,OP1005,Trenching,Construction,Rainy,Incline,Day,28.9,Beginner,3,1527.2,3.5,6,11,13.8,Fastened,No,45,87.4,Normal
+2025-05-22 07:14:00,T0144,EXC101,OP1003,Trenching,Mining,Cloudy,Flat,Day,29.2,Intermediate,8,1541.1,3.0,7,1,6.8,Fastened,No,45,50.3,Normal
+2025-05-30 08:23:00,T0145,EXC104,OP1006,Trenching,Construction,Rainy,Flat,Day,25.8,Beginner,6,1533.8,4.3,3,71,17.8,Fastened,Yes,45,89.9,Unusual
+2025-05-24 10:05:00,T0146,EXC100,OP1006,Earth Excavation,Mining,Windy,Flat,Night,25.9,Beginner,4,1572.3,5.2,9,31,42.4,Fastened,No,60,98.9,Normal
+2025-05-10 09:00:00,T0147,EXC101,OP1004,Earth Excavation,Construction,Rainy,Rocky,Night,38.2,Beginner,8,1529.1,3.6,8,2,48.9,Fastened,No,60,112.3,Normal
+2025-05-31 03:19:00,T0148,EXC104,OP1006,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Night,29.3,Beginner,6,1501.8,5.1,8,42,38.7,Fastened,No,35,70.3,Normal
+2025-05-21 11:18:00,T0149,EXC100,OP1001,Material Loading,Mining,Windy,Rocky,Day,31.5,Expert,4,1582.2,0.8,2,1,10.2,Fastened,No,30,40.9,Normal
+2025-05-06 06:39:00,T0150,EXC100,OP1006,Trenching,Construction,Rainy,Rocky,Day,26.5,Beginner,4,1585.7,3.2,3,45,2.2,Fastened,Yes,45,89.1,Normal
+2025-05-24 10:20:00,T0151,EXC103,OP1007,Material Loading,Construction,Sunny,Rocky,Night,25.7,Expert,3,1598.8,9.2,13,82,31.9,Fastened,Yes,30,51.8,Unusual
+2025-05-12 11:14:00,T0152,EXC100,OP1004,Material Loading,Mining,Sunny,Rocky,Day,28.7,Beginner,4,1537.9,1.6,3,4,35.7,Fastened,No,30,47.3,Normal
+2025-05-12 13:39:00,T0153,EXC102,OP1000,Trenching,Mining,Cloudy,Flat,Day,30.7,Intermediate,8,1552.5,2.1,5,2,36.1,Fastened,No,45,57.6,Normal
+2025-05-05 17:30:00,T0154,EXC101,OP1006,Trenching,Mining,Cloudy,Incline,Day,29.2,Beginner,8,1535.2,3.7,5,32,37.1,Unfastened,Yes,45,88.8,Normal
+2025-05-16 19:53:00,T0155,EXC102,OP1001,Grading,Underground Hard-Rock Mining,Cloudy,Rocky,Night,24.9,Expert,8,1527.9,2.3,3,23,15.6,Fastened,No,35,52.1,Normal
+2025-05-12 22:43:00,T0156,EXC100,OP1000,Material Loading,Mining,Windy,Incline,Day,23.4,Intermediate,4,1590.7,5.2,11,0,11.7,Fastened,No,30,38.7,Normal
+2025-05-15 19:40:00,T0157,EXC105,OP1007,Material Loading,Construction,Cloudy,Incline,Day,27.3,Expert,5,1574.0,7.5,10,67,35.5,Fastened,Yes,30,59.2,Unusual
+2025-05-08 11:32:00,T0158,EXC105,OP1006,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Flat,Day,24.5,Beginner,5,1587.3,4.7,14,4,4.2,Fastened,No,60,86.0,Normal
+2025-05-09 01:20:00,T0159,EXC105,OP1002,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Day,26.5,Expert,5,1518.5,3.8,7,15,14.6,Fastened,No,60,69.7,Normal
+2025-05-21 12:05:00,T0160,EXC104,OP1001,Demolition,Mining,Sunny,Incline,Day,27.5,Expert,6,1573.8,6.6,9,48,28.8,Fastened,Yes,90,119.4,Normal
+2025-05-17 19:32:00,T0161,EXC103,OP1006,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,21.3,Beginner,3,1560.7,2.2,3,11,32.2,Fastened,No,35,64.9,Normal
+2025-05-24 12:59:00,T0162,EXC103,OP1005,Demolition,Construction,Cloudy,Rocky,Day,31.9,Beginner,3,1547.3,4.2,9,14,18.4,Fastened,No,90,144.9,Normal
+2025-05-16 00:19:00,T0163,EXC101,OP1005,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Night,20.9,Beginner,8,1519.6,1.3,3,11,29.7,Fastened,No,30,59.2,Normal
+2025-05-13 10:23:00,T0164,EXC103,OP1002,Grading,Construction,Sunny,Incline,Night,30.6,Expert,3,1557.2,6.9,14,10,26.8,Fastened,No,35,45.3,Normal
+2025-05-03 09:52:00,T0165,EXC104,OP1006,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,18.5,Beginner,6,1542.2,7.1,12,42,13.3,Fastened,No,30,65.0,Normal
+2025-05-24 16:35:00,T0166,EXC104,OP1001,Earth Excavation,Construction,Cloudy,Incline,Night,35.1,Expert,6,1583.0,1.2,1,18,23.1,Fastened,No,60,78.9,Normal
+2025-05-13 00:57:00,T0167,EXC102,OP1004,Grading,Mining,Windy,Flat,Day,35.7,Beginner,8,1541.3,5.4,13,22,29.9,Fastened,No,35,59.4,Normal
+2025-05-13 03:54:00,T0168,EXC105,OP1003,Material Loading,Construction,Sunny,Flat,Day,33.8,Intermediate,5,1553.4,4.4,8,34,4.7,Fastened,No,30,50.9,Normal
+2025-05-02 15:18:00,T0169,EXC104,OP1001,Demolition,Mining,Rainy,Incline,Day,34.3,Expert,6,1584.6,4.9,6,38,4.3,Fastened,No,90,139.5,Normal
+2025-05-26 06:27:00,T0170,EXC101,OP1003,Material Loading,Underground Hard-Rock Mining,Cloudy,Flat,Day,22.7,Intermediate,8,1531.9,4.1,10,9,25.8,Fastened,No,30,37.0,Normal
+2025-05-29 10:43:00,T0171,EXC103,OP1004,Demolition,Mining,Windy,Flat,Night,31.1,Beginner,3,1537.9,0.8,3,8,20.8,Unfastened,Yes,90,134.3,Normal
+2025-05-17 02:52:00,T0172,EXC101,OP1007,Grading,Construction,Windy,Flat,Day,24.1,Expert,8,1516.7,1.5,2,13,19.5,Fastened,No,35,39.4,Normal
+2025-05-30 12:18:00,T0173,EXC105,OP1005,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Day,17.8,Beginner,5,1548.8,6.1,10,46,47.8,Unfastened,Yes,30,66.4,Normal
+2025-05-22 08:43:00,T0174,EXC103,OP1001,Earth Excavation,Mining,Sunny,Flat,Day,28.3,Expert,3,1515.2,1.0,1,9,27.9,Fastened,No,60,50.2,Normal
+2025-05-08 19:53:00,T0175,EXC105,OP1004,Demolition,Underground Hard-Rock Mining,Cloudy,Incline,Day,24.7,Beginner,5,1517.7,3.1,5,8,48.3,Fastened,No,90,143.3,Normal
+2025-05-25 03:15:00,T0176,EXC104,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Day,25.7,Beginner,6,1540.2,1.3,1,26,23.3,Fastened,No,30,48.7,Normal
+2025-05-14 09:51:00,T0177,EXC104,OP1003,Earth Excavation,Construction,Sunny,Incline,Day,38.3,Intermediate,6,1535.3,6.3,12,0,27.7,Fastened,No,60,80.8,Normal
+2025-05-02 14:40:00,T0178,EXC101,OP1005,Grading,Mining,Rainy,Incline,Day,28.0,Beginner,8,1598.1,6.5,12,28,26.4,Fastened,No,35,76.1,Normal
+2025-05-10 15:27:00,T0179,EXC102,OP1006,Material Loading,Mining,Windy,Incline,Day,36.0,Beginner,8,1576.5,3.3,4,32,49.8,Fastened,No,30,57.5,Normal
+2025-05-11 07:22:00,T0180,EXC105,OP1006,Material Loading,Mining,Cloudy,Flat,Night,34.8,Beginner,5,1522.1,3.2,7,0,34.8,Fastened,No,30,40.4,Normal
+2025-05-16 17:53:00,T0181,EXC105,OP1007,Demolition,Construction,Windy,Flat,Day,34.8,Expert,5,1529.5,2.8,7,0,31.8,Fastened,No,90,94.3,Normal
+2025-05-21 12:58:00,T0182,EXC100,OP1001,Trenching,Construction,Rainy,Rocky,Day,30.7,Expert,4,1530.6,3.0,8,2,25.3,Unfastened,Yes,45,59.6,Normal
+2025-05-18 02:57:00,T0183,EXC105,OP1003,Grading,Construction,Rainy,Rocky,Day,25.0,Intermediate,5,1528.1,3.5,8,6,13.7,Fastened,No,35,55.3,Normal
+2025-05-21 00:14:00,T0184,EXC100,OP1000,Earth Excavation,Mining,Rainy,Flat,Day,28.3,Intermediate,4,1535.8,4.6,9,28,23.0,Fastened,No,60,83.6,Normal
+2025-05-17 22:35:00,T0185,EXC105,OP1007,Grading,Construction,Windy,Rocky,Day,26.2,Expert,5,1529.0,6.3,14,14,38.9,Fastened,No,35,45.9,Normal
+2025-05-09 17:57:00,T0186,EXC101,OP1001,Trenching,Underground Hard-Rock Mining,Cloudy,Flat,Night,13.2,Expert,8,1531.8,1.1,1,14,0.7,Fastened,Yes,45,50.7,Normal
+2025-05-11 20:35:00,T0187,EXC104,OP1000,Grading,Mining,Cloudy,Flat,Day,35.3,Intermediate,6,1557.2,2.7,2,44,45.5,Fastened,No,35,55.7,Normal
+2025-05-23 18:41:00,T0188,EXC101,OP1006,Demolition,Underground Hard-Rock Mining,Sunny,Flat,Night,21.5,Beginner,8,1500.4,2.8,7,5,6.9,Fastened,No,90,123.8,Normal
+2025-05-20 18:19:00,T0189,EXC100,OP1006,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Day,21.3,Beginner,4,1595.7,7.3,12,40,6.0,Fastened,No,60,110.7,Unusual
+2025-05-07 13:23:00,T0190,EXC100,OP1006,Demolition,Mining,Rainy,Flat,Day,33.2,Beginner,4,1572.0,4.4,9,21,34.1,Fastened,No,90,146.4,Normal
+2025-05-30 12:36:00,T0191,EXC101,OP1004,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Night,20.3,Beginner,8,1557.9,3.2,5,6,3.4,Fastened,No,60,104.4,Normal
+2025-05-02 17:00:00,T0192,EXC105,OP1001,Demolition,Construction,Sunny,Rocky,Day,25.0,Expert,5,1512.4,4.1,10,0,13.7,Fastened,No,90,102.6,Normal
+2025-05-10 03:48:00,T0193,EXC100,OP1002,Grading,Construction,Rainy,Rocky,Night,21.5,Expert,4,1522.0,8.0,12,74,1.3,Unfastened,Yes,35,70.1,Unusual
+2025-05-22 03:56:00,T0194,EXC104,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,25.0,Beginner,6,1564.2,5.5,12,0,42.4,Fastened,No,60,86.0,Normal
+2025-05-15 18:56:00,T0195,EXC102,OP1007,Earth Excavation,Mining,Cloudy,Flat,Day,28.0,Expert,8,1522.8,1.6,2,18,3.5,Fastened,No,60,70.0,Normal
+2025-05-16 06:07:00,T0196,EXC104,OP1000,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,30.9,Intermediate,6,1577.7,0.7,1,5,39.2,Fastened,No,35,56.3,Normal
+2025-05-17 19:32:00,T0197,EXC102,OP1002,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Day,17.9,Expert,8,1591.7,4.6,8,25,3.5,Fastened,No,90,116.9,Normal
+2025-05-12 12:41:00,T0198,EXC103,OP1004,Grading,Underground Hard-Rock Mining,Sunny,Rocky,Day,27.6,Beginner,3,1530.2,1.7,2,5,14.1,Unfastened,Yes,35,53.3,Normal
+2025-05-14 11:09:00,T0199,EXC101,OP1005,Trenching,Mining,Rainy,Incline,Day,29.0,Beginner,8,1520.9,5.9,11,22,49.8,Fastened,No,45,84.6,Normal
+2025-05-30 19:25:00,T0200,EXC103,OP1000,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Day,25.0,Intermediate,3,1521.9,2.4,5,11,49.1,Fastened,No,30,45.0,Normal
+2025-05-01 16:19:00,T0201,EXC104,OP1002,Material Loading,Construction,Sunny,Flat,Night,32.1,Expert,6,1575.7,6.3,13,38,15.8,Fastened,No,30,39.1,Normal
+2025-05-22 23:52:00,T0202,EXC103,OP1002,Trenching,Mining,Rainy,Rocky,Day,22.3,Expert,3,1583.5,1.7,4,8,42.5,Fastened,No,45,62.4,Normal
+2025-05-07 14:15:00,T0203,EXC105,OP1002,Demolition,Mining,Cloudy,Flat,Day,26.0,Expert,5,1528.9,6.7,8,92,25.0,Fastened,Yes,90,105.3,Unusual
+2025-05-21 00:42:00,T0204,EXC103,OP1003,Demolition,Underground Hard-Rock Mining,Rainy,Incline,Night,32.0,Intermediate,3,1557.7,6.9,14,19,45.2,Fastened,No,90,152.3,Normal
+2025-05-18 10:09:00,T0205,EXC103,OP1004,Grading,Construction,Cloudy,Incline,Day,31.1,Beginner,3,1528.2,6.6,13,11,28.4,Fastened,No,35,52.8,Normal
+2025-05-02 00:52:00,T0206,EXC101,OP1003,Demolition,Construction,Sunny,Incline,Day,26.2,Intermediate,8,1549.8,2.0,4,4,2.1,Fastened,Yes,90,119.6,Normal
+2025-05-20 19:12:00,T0207,EXC103,OP1002,Trenching,Underground Hard-Rock Mining,Cloudy,Flat,Day,18.7,Expert,3,1582.5,2.8,2,41,14.5,Fastened,No,45,54.1,Normal
+2025-05-26 23:24:00,T0208,EXC100,OP1005,Earth Excavation,Mining,Sunny,Rocky,Day,29.6,Beginner,4,1572.3,3.4,8,5,0.6,Fastened,Yes,60,86.9,Normal
+2025-05-16 17:58:00,T0209,EXC103,OP1003,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,29.4,Intermediate,3,1561.0,6.8,14,7,40.9,Fastened,No,35,54.8,Normal
+2025-05-26 09:38:00,T0210,EXC105,OP1006,Grading,Construction,Cloudy,Flat,Day,24.3,Beginner,5,1515.0,4.4,11,10,31.6,Fastened,No,35,44.2,Normal
+2025-05-20 02:08:00,T0211,EXC103,OP1000,Grading,Mining,Cloudy,Incline,Night,30.2,Intermediate,3,1550.9,4.5,4,71,8.4,Fastened,Yes,35,67.9,Unusual
+2025-05-10 18:09:00,T0212,EXC104,OP1006,Earth Excavation,Construction,Sunny,Incline,Day,31.1,Beginner,6,1514.2,3.7,6,8,47.4,Fastened,No,60,101.6,Normal
+2025-05-09 15:52:00,T0213,EXC101,OP1002,Grading,Construction,Windy,Flat,Day,22.4,Expert,8,1570.5,2.1,3,24,27.3,Fastened,No,35,37.5,Normal
+2025-05-01 12:29:00,T0214,EXC104,OP1007,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Night,18.7,Expert,6,1515.7,3.1,4,19,4.0,Fastened,No,30,39.5,Normal
+2025-05-29 22:54:00,T0215,EXC101,OP1002,Material Loading,Construction,Cloudy,Flat,Day,25.0,Expert,8,1535.3,2.4,1,54,44.0,Fastened,Yes,30,41.1,Unusual
+2025-05-14 18:48:00,T0216,EXC101,OP1005,Earth Excavation,Construction,Cloudy,Flat,Day,33.0,Beginner,8,1520.5,5.4,7,57,10.4,Fastened,Yes,60,106.7,Normal
+2025-05-18 09:43:00,T0217,EXC104,OP1005,Grading,Construction,Sunny,Incline,Day,23.4,Beginner,6,1597.1,5.6,5,77,9.9,Fastened,Yes,35,73.4,Unusual
+2025-05-16 15:52:00,T0218,EXC102,OP1003,Material Loading,Construction,Rainy,Flat,Night,31.9,Intermediate,8,1563.1,3.9,8,21,4.2,Unfastened,Yes,30,48.7,Normal
+2025-05-22 17:49:00,T0219,EXC102,OP1003,Earth Excavation,Underground Hard-Rock Mining,Rainy,Incline,Day,27.9,Intermediate,8,1561.0,5.4,9,14,0.6,Fastened,Yes,60,110.8,Normal
+2025-05-27 07:25:00,T0220,EXC104,OP1002,Material Loading,Construction,Windy,Rocky,Day,25.1,Expert,6,1505.0,0.5,1,0,47.9,Fastened,No,30,38.3,Unusual
+2025-05-09 08:43:00,T0221,EXC104,OP1000,Trenching,Construction,Windy,Rocky,Day,29.9,Intermediate,6,1509.3,4.8,11,1,43.1,Fastened,No,45,63.9,Normal
+2025-05-18 05:53:00,T0222,EXC103,OP1002,Earth Excavation,Mining,Cloudy,Flat,Day,36.7,Expert,3,1571.4,3.4,8,21,30.1,Fastened,No,60,57.2,Normal
+2025-05-02 07:51:00,T0223,EXC105,OP1001,Trenching,Construction,Rainy,Incline,Night,30.4,Expert,5,1520.0,5.7,10,14,49.4,Fastened,No,45,69.3,Normal
+2025-05-17 09:28:00,T0224,EXC104,OP1000,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Night,18.2,Intermediate,6,1591.5,2.7,5,21,12.8,Fastened,No,30,45.5,Normal
+2025-05-04 22:27:00,T0225,EXC101,OP1005,Grading,Underground Hard-Rock Mining,Rainy,Flat,Night,22.0,Beginner,8,1578.5,2.9,10,0,25.4,Fastened,No,35,56.6,Normal
+2025-05-06 19:23:00,T0226,EXC100,OP1003,Material Loading,Construction,Rainy,Rocky,Day,26.6,Intermediate,4,1592.4,2.6,5,3,34.4,Fastened,No,30,47.5,Normal
+2025-05-13 04:26:00,T0227,EXC104,OP1003,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Day,15.2,Intermediate,6,1582.9,5.0,9,35,40.6,Fastened,No,60,97.3,Normal
+2025-05-02 02:00:00,T0228,EXC101,OP1001,Earth Excavation,Mining,Sunny,Flat,Day,36.2,Expert,8,1555.3,2.0,3,8,17.6,Fastened,No,60,61.1,Normal
+2025-05-18 06:47:00,T0229,EXC105,OP1002,Earth Excavation,Construction,Cloudy,Flat,Day,25.1,Expert,5,1569.4,3.2,7,11,43.2,Fastened,No,60,68.7,Normal
+2025-05-10 21:57:00,T0230,EXC105,OP1005,Earth Excavation,Mining,Rainy,Rocky,Day,30.8,Beginner,5,1589.1,6.4,14,2,11.0,Unfastened,Yes,60,116.6,Normal
+2025-05-19 21:09:00,T0231,EXC105,OP1006,Material Loading,Underground Hard-Rock Mining,Rainy,Rocky,Night,27.1,Beginner,5,1541.6,8.3,14,41,20.9,Fastened,No,30,63.6,Unusual
+2025-05-22 02:49:00,T0232,EXC104,OP1002,Earth Excavation,Mining,Rainy,Incline,Day,33.2,Expert,6,1560.6,6.8,13,8,19.9,Fastened,No,60,81.6,Normal
+2025-05-12 05:30:00,T0233,EXC101,OP1006,Earth Excavation,Mining,Cloudy,Flat,Day,43.1,Beginner,8,1562.8,3.6,10,5,36.3,Unfastened,Yes,60,91.5,Normal
+2025-05-24 08:32:00,T0234,EXC100,OP1005,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Night,22.7,Beginner,4,1545.1,2.6,3,34,20.8,Unfastened,Yes,30,49.4,Normal
+2025-05-25 11:12:00,T0235,EXC101,OP1007,Material Loading,Construction,Windy,Rocky,Day,32.9,Expert,8,1584.8,2.5,4,20,19.1,Unfastened,Yes,30,41.7,Normal
+2025-05-16 20:23:00,T0236,EXC102,OP1004,Trenching,Underground Hard-Rock Mining,Sunny,Incline,Day,28.7,Beginner,8,1572.9,3.9,8,1,33.0,Fastened,No,45,64.4,Normal
+2025-05-06 19:46:00,T0237,EXC102,OP1005,Trenching,Mining,Rainy,Flat,Day,33.0,Beginner,8,1554.8,4.3,9,17,27.6,Fastened,No,45,69.3,Normal
+2025-05-09 06:57:00,T0238,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,23.5,Intermediate,4,1566.2,4.5,12,9,21.9,Fastened,No,30,32.7,Normal
+2025-05-01 14:09:00,T0239,EXC104,OP1004,Trenching,Construction,Windy,Flat,Night,25.8,Beginner,6,1531.4,3.5,8,18,43.5,Fastened,No,45,74.8,Normal
+2025-05-16 09:59:00,T0240,EXC101,OP1000,Trenching,Underground Hard-Rock Mining,Rainy,Rocky,Day,26.3,Intermediate,8,1595.8,0.6,1,6,32.0,Fastened,No,45,75.8,Unusual
+2025-05-10 14:00:00,T0241,EXC104,OP1005,Grading,Construction,Sunny,Rocky,Day,22.4,Beginner,6,1566.2,2.5,4,12,39.4,Fastened,No,35,59.9,Normal
+2025-05-12 17:44:00,T0242,EXC100,OP1003,Demolition,Construction,Cloudy,Rocky,Day,34.1,Intermediate,4,1588.8,3.1,5,19,10.5,Fastened,No,90,126.3,Normal
+2025-05-12 10:23:00,T0243,EXC104,OP1006,Demolition,Construction,Rainy,Rocky,Night,33.0,Beginner,6,1596.7,9.9,11,120,37.5,Fastened,Yes,90,202.0,Unusual
+2025-05-27 02:28:00,T0244,EXC102,OP1002,Demolition,Mining,Sunny,Incline,Day,31.6,Expert,8,1536.0,1.7,3,10,25.8,Fastened,No,90,112.4,Normal
+2025-05-17 21:53:00,T0245,EXC102,OP1002,Demolition,Mining,Sunny,Rocky,Day,31.0,Expert,8,1573.3,1.9,2,24,11.8,Fastened,No,90,110.6,Normal
+2025-05-05 05:41:00,T0246,EXC103,OP1001,Demolition,Underground Hard-Rock Mining,Cloudy,Flat,Night,22.8,Expert,3,1598.1,3.3,4,39,47.5,Fastened,No,90,99.1,Normal
+2025-05-22 17:08:00,T0247,EXC102,OP1001,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,31.8,Expert,8,1569.7,4.5,9,1,37.5,Fastened,No,45,56.6,Normal
+2025-05-13 01:19:00,T0248,EXC105,OP1003,Trenching,Mining,Cloudy,Flat,Night,36.4,Intermediate,5,1506.1,2.5,2,30,40.2,Fastened,No,45,64.5,Normal
+2025-05-03 02:50:00,T0249,EXC101,OP1003,Demolition,Construction,Sunny,Flat,Night,26.8,Intermediate,8,1574.1,4.8,12,8,2.1,Unfastened,Yes,90,101.2,Normal
+2025-05-15 21:59:00,T0250,EXC103,OP1003,Material Loading,Mining,Cloudy,Incline,Night,29.3,Intermediate,3,1519.7,3.6,5,32,30.4,Fastened,No,30,47.9,Normal
+2025-05-11 18:40:00,T0251,EXC104,OP1007,Grading,Underground Hard-Rock Mining,Windy,Flat,Night,23.7,Expert,6,1593.8,2.0,3,16,21.1,Fastened,No,35,41.1,Normal
+2025-05-04 03:05:00,T0252,EXC101,OP1005,Grading,Mining,Cloudy,Incline,Night,23.6,Beginner,8,1516.6,4.7,8,11,15.3,Fastened,No,35,60.2,Normal
+2025-05-24 14:29:00,T0253,EXC103,OP1007,Trenching,Mining,Cloudy,Flat,Day,31.0,Expert,3,1507.6,3.1,8,3,24.5,Fastened,No,45,47.0,Normal
+2025-05-08 10:15:00,T0254,EXC104,OP1005,Trenching,Construction,Windy,Incline,Day,21.1,Beginner,6,1517.4,3.0,7,1,3.3,Fastened,No,45,77.4,Normal
+2025-05-29 20:25:00,T0255,EXC105,OP1000,Demolition,Construction,Sunny,Incline,Night,24.6,Intermediate,5,1504.5,5.1,7,36,44.5,Fastened,No,90,125.1,Normal
+2025-05-10 23:51:00,T0256,EXC103,OP1000,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,19.5,Intermediate,3,1580.0,4.4,7,23,44.5,Fastened,No,35,50.9,Normal
+2025-05-02 15:52:00,T0257,EXC105,OP1004,Material Loading,Mining,Sunny,Rocky,Night,32.0,Beginner,5,1593.2,6.4,13,21,28.8,Unfastened,Yes,30,49.2,Normal
+2025-05-17 21:23:00,T0258,EXC104,OP1002,Trenching,Construction,Windy,Flat,Day,25.8,Expert,6,1555.9,5.6,14,3,4.8,Fastened,No,45,46.1,Normal
+2025-05-21 23:52:00,T0259,EXC104,OP1002,Demolition,Mining,Rainy,Incline,Day,32.0,Expert,6,1525.0,4.0,6,27,30.2,Fastened,No,90,131.1,Normal
+2025-05-01 11:36:00,T0260,EXC103,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Day,19.3,Beginner,3,1548.6,3.2,2,59,39.4,Fastened,Yes,60,97.2,Unusual
+2025-05-18 06:06:00,T0261,EXC100,OP1004,Grading,Mining,Sunny,Incline,Day,39.7,Beginner,4,1600.0,1.0,2,10,9.0,Fastened,No,35,58.2,Normal
+2025-05-05 22:51:00,T0262,EXC100,OP1006,Grading,Underground Hard-Rock Mining,Rainy,Flat,Day,11.3,Beginner,4,1503.5,2.2,1,38,17.1,Fastened,No,35,69.0,Unusual
+2025-05-13 16:08:00,T0263,EXC105,OP1004,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,15.7,Beginner,5,1505.6,3.3,7,2,12.2,Fastened,No,60,93.9,Normal
+2025-05-20 17:34:00,T0264,EXC105,OP1007,Trenching,Mining,Rainy,Flat,Night,39.2,Expert,5,1552.5,3.0,9,6,15.0,Fastened,No,45,50.2,Normal
+2025-05-25 07:22:00,T0265,EXC103,OP1006,Material Loading,Construction,Sunny,Incline,Day,34.4,Beginner,3,1560.0,2.6,4,26,14.4,Fastened,No,30,58.1,Normal
+2025-05-27 17:34:00,T0266,EXC105,OP1003,Material Loading,Underground Hard-Rock Mining,Rainy,Rocky,Day,27.2,Intermediate,5,1544.3,0.6,1,1,47.0,Fastened,No,30,46.9,Normal
+2025-05-28 12:41:00,T0267,EXC105,OP1003,Grading,Mining,Cloudy,Incline,Day,24.5,Intermediate,5,1596.8,6.4,9,48,0.7,Fastened,Yes,35,57.8,Unusual
+2025-05-23 10:34:00,T0268,EXC104,OP1002,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Day,26.3,Expert,6,1521.2,2.3,5,5,38.0,Fastened,No,30,37.6,Normal
+2025-05-15 12:46:00,T0269,EXC100,OP1007,Earth Excavation,Construction,Rainy,Incline,Day,36.1,Expert,4,1512.0,7.2,14,13,34.3,Fastened,No,60,87.9,Normal
+2025-05-07 14:55:00,T0270,EXC101,OP1000,Demolition,Mining,Rainy,Incline,Day,36.9,Intermediate,8,1573.3,3.4,4,17,28.2,Fastened,No,90,152.9,Normal
+2025-05-06 08:27:00,T0271,EXC102,OP1000,Demolition,Mining,Windy,Rocky,Day,24.9,Intermediate,8,1598.1,5.9,13,5,39.3,Fastened,No,90,134.2,Normal
+2025-05-05 08:18:00,T0272,EXC103,OP1003,Grading,Construction,Cloudy,Flat,Day,37.6,Intermediate,3,1529.6,5.3,13,5,39.2,Unfastened,Yes,35,39.8,Normal
+2025-05-13 19:43:00,T0273,EXC101,OP1006,Grading,Mining,Sunny,Incline,Day,30.1,Beginner,8,1513.8,5.3,10,8,41.1,Fastened,No,35,50.4,Normal
+2025-05-28 18:13:00,T0274,EXC100,OP1006,Earth Excavation,Construction,Rainy,Flat,Day,28.4,Beginner,4,1546.7,6.6,14,48,29.0,Fastened,Yes,60,109.1,Normal
+2025-05-08 04:08:00,T0275,EXC104,OP1006,Material Loading,Construction,Windy,Flat,Night,31.7,Beginner,6,1503.3,2.8,5,7,32.9,Fastened,No,30,39.7,Normal
+2025-05-04 23:28:00,T0276,EXC105,OP1005,Demolition,Underground Hard-Rock Mining,Cloudy,Incline,Day,27.5,Beginner,5,1593.8,6.4,12,23,47.0,Fastened,No,90,158.4,Normal
+2025-05-08 09:23:00,T0277,EXC104,OP1007,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Night,30.0,Expert,6,1553.2,6.9,14,6,14.8,Fastened,No,90,103.0,Normal
+2025-05-22 12:07:00,T0278,EXC103,OP1005,Demolition,Mining,Rainy,Rocky,Day,30.3,Beginner,3,1523.1,5.9,8,69,3.0,Fastened,Yes,90,176.1,Unusual
+2025-05-25 16:26:00,T0279,EXC101,OP1006,Demolition,Underground Hard-Rock Mining,Sunny,Rocky,Night,31.9,Beginner,8,1542.8,5.8,12,11,33.1,Fastened,No,90,141.4,Normal
+2025-05-03 10:44:00,T0280,EXC105,OP1006,Trenching,Underground Hard-Rock Mining,Rainy,Rocky,Day,20.7,Beginner,5,1530.8,2.0,4,4,35.8,Fastened,No,45,86.7,Normal
+2025-05-29 01:11:00,T0281,EXC103,OP1003,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Night,20.8,Intermediate,3,1513.2,3.8,6,30,49.5,Fastened,No,60,74.2,Normal
+2025-05-18 17:34:00,T0282,EXC100,OP1005,Trenching,Underground Hard-Rock Mining,Sunny,Flat,Day,20.3,Beginner,4,1506.6,5.0,13,5,8.4,Fastened,No,45,52.5,Normal
+2025-05-23 11:00:00,T0283,EXC100,OP1007,Trenching,Construction,Rainy,Flat,Day,35.4,Expert,4,1505.2,1.7,3,18,12.1,Fastened,No,45,57.9,Normal
+2025-05-18 23:53:00,T0284,EXC102,OP1005,Material Loading,Mining,Windy,Incline,Day,28.2,Beginner,8,1502.9,7.1,10,58,35.0,Fastened,Yes,30,75.0,Unusual
+2025-05-23 18:43:00,T0285,EXC103,OP1004,Trenching,Underground Hard-Rock Mining,Rainy,Incline,Night,24.4,Beginner,3,1537.5,6.8,14,4,20.8,Unfastened,Yes,45,82.8,Normal
+2025-05-12 22:48:00,T0286,EXC103,OP1007,Demolition,Mining,Windy,Rocky,Day,27.2,Expert,3,1545.0,6.0,13,19,33.3,Fastened,No,90,107.3,Normal
+2025-05-24 23:32:00,T0287,EXC104,OP1004,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,18.7,Beginner,6,1529.6,3.0,7,3,13.8,Fastened,No,30,44.3,Normal
+2025-05-30 05:43:00,T0288,EXC104,OP1001,Grading,Mining,Rainy,Incline,Day,21.2,Expert,6,1519.3,9.4,14,74,6.5,Fastened,Yes,35,65.3,Unusual
+2025-05-23 06:50:00,T0289,EXC105,OP1002,Grading,Underground Hard-Rock Mining,Cloudy,Flat,Day,17.2,Expert,5,1504.5,3.7,7,26,33.7,Fastened,No,35,41.0,Normal
+2025-05-28 17:20:00,T0290,EXC103,OP1001,Material Loading,Construction,Rainy,Incline,Day,29.0,Expert,3,1557.8,6.5,13,20,33.4,Fastened,No,30,37.8,Normal
+2025-05-28 03:51:00,T0291,EXC105,OP1007,Demolition,Underground Hard-Rock Mining,Cloudy,Flat,Day,23.1,Expert,5,1552.4,4.1,12,0,49.6,Fastened,No,90,85.5,Normal
+2025-05-17 09:18:00,T0292,EXC101,OP1001,Grading,Underground Hard-Rock Mining,Windy,Rocky,Day,18.6,Expert,8,1509.3,6.7,11,37,30.4,Fastened,No,35,49.4,Normal
+2025-05-21 14:47:00,T0293,EXC103,OP1001,Grading,Mining,Rainy,Flat,Day,29.2,Expert,3,1566.1,2.5,6,4,7.0,Unfastened,Yes,35,44.4,Normal
+2025-05-22 01:38:00,T0294,EXC101,OP1000,Trenching,Construction,Sunny,Flat,Day,31.6,Intermediate,8,1501.4,3.6,9,5,27.6,Fastened,No,45,51.4,Normal
+2025-05-10 10:10:00,T0295,EXC100,OP1001,Trenching,Underground Hard-Rock Mining,Sunny,Flat,Day,22.1,Expert,4,1506.9,7.3,14,36,40.1,Fastened,No,45,56.4,Unusual
+2025-05-03 04:16:00,T0296,EXC100,OP1007,Demolition,Construction,Windy,Rocky,Day,33.5,Expert,4,1500.1,4.7,11,1,22.4,Fastened,No,90,109.0,Normal
+2025-05-15 06:13:00,T0297,EXC103,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,23.0,Beginner,3,1592.4,4.5,6,50,5.6,Fastened,Yes,60,110.0,Unusual
+2025-05-16 19:14:00,T0298,EXC102,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Day,18.7,Beginner,8,1525.4,3.5,6,1,33.5,Fastened,No,60,98.4,Normal
+2025-05-16 01:16:00,T0299,EXC102,OP1003,Earth Excavation,Underground Hard-Rock Mining,Windy,Flat,Day,21.8,Intermediate,8,1553.2,3.9,10,1,23.5,Fastened,No,60,74.1,Normal
+2025-05-18 09:44:00,T0300,EXC101,OP1000,Demolition,Construction,Windy,Flat,Day,20.0,Intermediate,8,1536.5,5.0,12,2,37.8,Fastened,No,90,115.7,Normal
+2025-05-12 19:06:00,T0301,EXC102,OP1005,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,18.2,Beginner,8,1549.2,6.6,13,37,6.7,Fastened,No,30,61.8,Normal
+2025-05-24 15:31:00,T0302,EXC103,OP1000,Material Loading,Underground Hard-Rock Mining,Windy,Incline,Day,18.8,Intermediate,3,1554.4,6.8,14,0,14.0,Fastened,No,30,42.1,Normal
+2025-05-24 15:49:00,T0303,EXC105,OP1003,Earth Excavation,Mining,Rainy,Incline,Night,37.9,Intermediate,5,1536.5,7.4,11,47,35.2,Fastened,Yes,60,106.6,Normal
+2025-05-09 11:06:00,T0304,EXC104,OP1004,Demolition,Mining,Windy,Flat,Night,35.8,Beginner,6,1570.2,6.2,9,67,15.7,Fastened,Yes,90,152.0,Unusual
+2025-05-22 04:13:00,T0305,EXC104,OP1000,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,21.3,Intermediate,6,1507.7,7.3,14,3,49.9,Fastened,No,45,58.8,Normal
+2025-05-26 04:52:00,T0306,EXC105,OP1004,Earth Excavation,Construction,Cloudy,Rocky,Day,26.6,Beginner,5,1561.6,3.5,6,20,8.0,Fastened,No,60,103.1,Normal
+2025-05-13 15:28:00,T0307,EXC104,OP1006,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Day,16.4,Beginner,6,1573.4,4.8,11,23,2.6,Fastened,Yes,45,75.4,Normal
+2025-05-23 15:43:00,T0308,EXC102,OP1004,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,20.7,Beginner,8,1590.8,1.4,2,3,18.9,Fastened,No,35,73.0,Normal
+2025-05-15 18:20:00,T0309,EXC105,OP1000,Trenching,Underground Hard-Rock Mining,Windy,Flat,Night,21.8,Intermediate,5,1563.0,5.1,14,8,10.2,Fastened,No,45,52.3,Normal
+2025-05-08 05:53:00,T0310,EXC101,OP1006,Demolition,Construction,Rainy,Rocky,Day,35.9,Beginner,8,1542.3,8.2,14,54,47.6,Fastened,Yes,90,192.1,Unusual
+2025-05-07 01:06:00,T0311,EXC100,OP1006,Demolition,Underground Hard-Rock Mining,Windy,Flat,Day,21.1,Beginner,4,1564.4,1.6,5,2,9.9,Unfastened,Yes,90,135.8,Normal
+2025-05-19 03:45:00,T0312,EXC103,OP1000,Material Loading,Construction,Cloudy,Incline,Night,28.7,Intermediate,3,1558.8,1.1,1,14,1.2,Fastened,Yes,30,48.0,Normal
+2025-05-28 02:10:00,T0313,EXC105,OP1007,Grading,Underground Hard-Rock Mining,Windy,Incline,Day,24.5,Expert,5,1528.3,5.7,11,5,4.5,Fastened,No,35,40.3,Normal
+2025-05-25 16:03:00,T0314,EXC102,OP1004,Grading,Construction,Cloudy,Flat,Night,28.9,Beginner,8,1588.4,4.5,8,36,4.0,Unfastened,Yes,35,55.7,Normal
+2025-05-09 01:59:00,T0315,EXC102,OP1004,Earth Excavation,Construction,Windy,Flat,Day,16.8,Beginner,8,1533.0,6.0,14,12,46.9,Fastened,No,60,95.8,Normal
+2025-05-03 06:56:00,T0316,EXC102,OP1006,Demolition,Mining,Cloudy,Rocky,Night,35.6,Beginner,8,1509.1,5.0,12,1,21.1,Fastened,No,90,154.1,Normal
+2025-05-10 02:35:00,T0317,EXC100,OP1003,Grading,Mining,Rainy,Rocky,Day,30.3,Intermediate,4,1596.3,3.6,7,9,5.3,Fastened,No,35,57.4,Normal
+2025-05-30 10:49:00,T0318,EXC104,OP1001,Trenching,Underground Hard-Rock Mining,Cloudy,Incline,Day,19.3,Expert,6,1562.8,4.7,7,30,20.3,Fastened,No,45,63.3,Normal
+2025-05-15 20:42:00,T0319,EXC105,OP1002,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,18.2,Expert,5,1518.1,3.4,5,23,21.1,Fastened,No,30,38.9,Normal
+2025-05-13 13:50:00,T0320,EXC105,OP1003,Grading,Underground Hard-Rock Mining,Windy,Flat,Day,27.5,Intermediate,5,1515.9,2.9,7,16,18.0,Fastened,No,35,46.5,Normal
+2025-05-13 01:30:00,T0321,EXC102,OP1007,Material Loading,Construction,Cloudy,Flat,Day,24.1,Expert,8,1547.2,3.0,7,7,3.9,Fastened,No,30,30.6,Normal
+2025-05-16 06:38:00,T0322,EXC103,OP1001,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Night,25.6,Expert,3,1541.2,2.8,5,26,13.4,Unfastened,Yes,30,50.9,Normal
+2025-05-05 22:52:00,T0323,EXC100,OP1003,Grading,Construction,Sunny,Flat,Day,34.2,Intermediate,4,1524.3,2.2,6,0,47.1,Fastened,No,35,37.8,Normal
+2025-05-20 21:51:00,T0324,EXC101,OP1002,Earth Excavation,Mining,Windy,Flat,Day,23.5,Expert,8,1564.2,3.5,9,0,30.0,Fastened,No,60,68.4,Normal
+2025-05-04 14:18:00,T0325,EXC105,OP1000,Material Loading,Mining,Sunny,Rocky,Day,25.8,Intermediate,5,1524.7,1.2,2,11,29.7,Fastened,No,30,43.6,Normal
+2025-05-31 02:40:00,T0326,EXC101,OP1003,Grading,Mining,Windy,Flat,Day,25.9,Intermediate,8,1538.7,3.9,8,22,33.3,Fastened,No,35,54.3,Normal
+2025-05-15 07:05:00,T0327,EXC104,OP1004,Grading,Mining,Rainy,Rocky,Day,31.7,Beginner,6,1532.0,3.8,9,2,45.2,Unfastened,Yes,35,57.3,Normal
+2025-05-18 08:48:00,T0328,EXC101,OP1003,Grading,Underground Hard-Rock Mining,Cloudy,Incline,Day,16.7,Intermediate,8,1538.6,6.4,10,30,20.0,Fastened,No,35,63.2,Normal
+2025-05-27 04:36:00,T0329,EXC100,OP1001,Demolition,Underground Hard-Rock Mining,Rainy,Rocky,Night,17.0,Expert,4,1520.7,2.8,4,27,20.6,Fastened,No,90,121.0,Normal
+2025-05-04 04:39:00,T0330,EXC100,OP1007,Grading,Mining,Cloudy,Incline,Night,26.8,Expert,4,1514.3,3.6,3,62,24.6,Unfastened,Yes,35,55.2,Unusual
+2025-05-15 15:11:00,T0331,EXC101,OP1002,Grading,Underground Hard-Rock Mining,Windy,Rocky,Day,18.5,Expert,8,1591.2,3.7,2,58,16.9,Fastened,Yes,35,69.3,Unusual
+2025-05-11 23:54:00,T0332,EXC101,OP1005,Grading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,22.0,Beginner,8,1544.5,3.1,5,22,40.3,Fastened,No,35,66.4,Normal
+2025-05-19 11:00:00,T0333,EXC104,OP1000,Grading,Underground Hard-Rock Mining,Cloudy,Incline,Day,22.4,Intermediate,6,1547.5,3.0,6,1,41.1,Fastened,No,35,53.8,Normal
+2025-05-05 03:23:00,T0334,EXC100,OP1004,Material Loading,Mining,Cloudy,Incline,Night,37.1,Beginner,4,1598.1,2.9,3,24,44.0,Fastened,No,30,60.6,Normal
+2025-05-28 03:37:00,T0335,EXC105,OP1001,Trenching,Underground Hard-Rock Mining,Cloudy,Rocky,Day,20.1,Expert,5,1569.5,8.4,14,56,38.9,Fastened,Yes,45,64.1,Unusual
+2025-05-12 01:41:00,T0336,EXC100,OP1003,Demolition,Construction,Sunny,Rocky,Day,28.5,Intermediate,4,1552.8,6.4,13,14,25.6,Fastened,No,90,116.6,Normal
+2025-05-15 20:29:00,T0337,EXC102,OP1005,Trenching,Mining,Sunny,Rocky,Night,18.6,Beginner,8,1541.1,3.6,6,4,32.6,Fastened,No,45,66.3,Normal
+2025-05-30 00:01:00,T0338,EXC101,OP1006,Grading,Underground Hard-Rock Mining,Sunny,Rocky,Night,10.4,Beginner,8,1531.2,4.4,9,11,10.6,Unfastened,Yes,35,60.1,Normal
+2025-05-28 18:20:00,T0339,EXC100,OP1001,Trenching,Underground Hard-Rock Mining,Sunny,Rocky,Night,18.4,Expert,4,1512.0,7.8,14,41,12.0,Fastened,No,45,56.6,Unusual
+2025-05-08 10:44:00,T0340,EXC102,OP1001,Material Loading,Mining,Cloudy,Rocky,Day,35.5,Expert,8,1503.6,3.1,6,2,31.4,Fastened,No,30,32.6,Normal
+2025-05-09 09:03:00,T0341,EXC105,OP1001,Demolition,Mining,Sunny,Incline,Day,35.7,Expert,5,1586.6,1.6,3,0,2.4,Fastened,Yes,90,99.7,Normal
+2025-05-18 03:26:00,T0342,EXC105,OP1007,Trenching,Construction,Sunny,Flat,Night,35.0,Expert,5,1509.7,2.4,5,15,6.5,Fastened,No,45,50.4,Normal
+2025-05-14 20:23:00,T0343,EXC102,OP1003,Earth Excavation,Mining,Rainy,Flat,Day,21.1,Intermediate,8,1541.7,5.7,14,11,40.5,Fastened,No,60,86.0,Normal
+2025-05-05 11:20:00,T0344,EXC105,OP1006,Trenching,Construction,Cloudy,Flat,Day,38.5,Beginner,5,1567.4,6.7,14,49,1.5,Fastened,Yes,45,80.7,Normal
+2025-05-20 12:41:00,T0345,EXC100,OP1004,Grading,Mining,Sunny,Rocky,Day,29.0,Beginner,4,1585.4,3.7,8,4,41.9,Unfastened,Yes,35,52.2,Normal
+2025-05-09 13:22:00,T0346,EXC103,OP1006,Demolition,Underground Hard-Rock Mining,Cloudy,Rocky,Day,22.0,Beginner,3,1539.3,6.9,14,11,22.6,Fastened,No,90,146.2,Normal
+2025-05-08 19:31:00,T0347,EXC105,OP1005,Earth Excavation,Mining,Windy,Rocky,Day,36.6,Beginner,5,1522.1,0.5,1,0,47.8,Fastened,No,60,99.1,Unusual
+2025-05-28 22:46:00,T0348,EXC104,OP1003,Material Loading,Mining,Sunny,Flat,Day,32.1,Intermediate,6,1582.9,2.7,7,19,31.6,Fastened,No,30,29.6,Normal
+2025-05-25 17:08:00,T0349,EXC100,OP1001,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Night,27.9,Expert,4,1506.9,1.4,1,16,46.4,Fastened,No,60,76.7,Normal
+2025-05-22 09:15:00,T0350,EXC105,OP1004,Grading,Mining,Sunny,Rocky,Night,32.1,Beginner,5,1565.8,2.7,3,20,41.3,Fastened,No,35,62.1,Normal
+2025-05-05 07:20:00,T0351,EXC105,OP1007,Material Loading,Construction,Rainy,Rocky,Day,17.1,Expert,5,1519.9,5.3,12,0,16.1,Fastened,No,30,39.7,Normal
+2025-05-15 18:26:00,T0352,EXC105,OP1004,Earth Excavation,Construction,Sunny,Flat,Day,27.1,Beginner,5,1591.1,1.5,2,10,6.0,Fastened,No,60,79.4,Normal
+2025-05-17 11:05:00,T0353,EXC105,OP1007,Trenching,Mining,Cloudy,Flat,Day,27.9,Expert,5,1587.7,3.7,10,3,16.7,Fastened,No,45,50.9,Normal
+2025-05-07 10:46:00,T0354,EXC101,OP1003,Material Loading,Underground Hard-Rock Mining,Windy,Incline,Day,18.7,Intermediate,8,1531.4,6.1,11,12,21.5,Fastened,No,30,45.2,Normal
+2025-05-01 08:33:00,T0355,EXC103,OP1005,Earth Excavation,Mining,Rainy,Incline,Day,30.7,Beginner,3,1576.2,1.1,1,7,39.9,Fastened,No,60,115.2,Normal
+2025-05-07 16:21:00,T0356,EXC103,OP1005,Demolition,Construction,Rainy,Flat,Day,36.6,Beginner,3,1540.2,4.9,10,17,33.3,Fastened,No,90,141.4,Normal
+2025-05-30 15:17:00,T0357,EXC101,OP1002,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Night,14.5,Expert,8,1596.7,5.2,13,10,40.4,Fastened,No,45,64.5,Normal
+2025-05-26 01:09:00,T0358,EXC103,OP1001,Trenching,Construction,Sunny,Rocky,Night,33.4,Expert,3,1524.2,3.5,7,9,47.0,Fastened,No,45,48.1,Normal
+2025-05-21 23:58:00,T0359,EXC101,OP1003,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Night,18.8,Intermediate,8,1517.8,2.5,2,7,30.1,Fastened,No,35,54.5,Normal
+2025-05-29 08:55:00,T0360,EXC105,OP1002,Grading,Mining,Cloudy,Incline,Day,18.0,Expert,5,1535.6,2.3,5,4,27.0,Fastened,No,35,41.9,Normal
+2025-05-26 07:50:00,T0361,EXC104,OP1002,Earth Excavation,Mining,Rainy,Flat,Night,32.1,Expert,6,1573.9,5.1,7,61,46.5,Fastened,Yes,60,80.2,Unusual
+2025-05-03 12:00:00,T0362,EXC101,OP1001,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Night,23.0,Expert,8,1548.2,3.8,7,18,48.5,Fastened,No,60,68.1,Normal
+2025-05-02 19:24:00,T0363,EXC101,OP1002,Grading,Construction,Sunny,Rocky,Day,29.2,Expert,8,1502.5,5.2,12,13,17.1,Fastened,No,35,37.4,Normal
+2025-05-07 17:27:00,T0364,EXC103,OP1007,Demolition,Mining,Rainy,Rocky,Night,30.5,Expert,3,1575.0,3.4,6,16,25.4,Fastened,No,90,119.2,Normal
+2025-05-10 14:00:00,T0365,EXC105,OP1001,Demolition,Construction,Windy,Rocky,Night,30.1,Expert,5,1574.1,3.7,8,7,17.2,Fastened,No,90,107.4,Normal
+2025-05-31 03:26:00,T0366,EXC100,OP1007,Material Loading,Mining,Rainy,Rocky,Day,25.8,Expert,4,1550.5,2.2,4,9,20.4,Fastened,No,30,43.0,Normal
+2025-05-29 22:22:00,T0367,EXC100,OP1004,Demolition,Construction,Rainy,Incline,Day,29.7,Beginner,4,1557.8,3.6,6,21,31.1,Fastened,No,90,173.6,Normal
+2025-05-18 13:18:00,T0368,EXC100,OP1003,Material Loading,Construction,Rainy,Rocky,Night,32.1,Intermediate,4,1560.1,4.2,8,14,10.5,Fastened,No,30,52.8,Normal
+2025-05-16 16:23:00,T0369,EXC103,OP1000,Trenching,Mining,Sunny,Rocky,Night,34.6,Intermediate,3,1525.0,6.4,13,4,5.6,Fastened,No,45,58.6,Normal
+2025-05-04 13:23:00,T0370,EXC104,OP1001,Demolition,Construction,Rainy,Incline,Day,31.1,Expert,6,1593.3,4.1,8,8,10.0,Fastened,No,90,127.7,Normal
+2025-05-03 06:12:00,T0371,EXC104,OP1000,Trenching,Construction,Cloudy,Incline,Day,21.9,Intermediate,6,1562.5,3.0,4,28,11.7,Fastened,No,45,69.7,Normal
+2025-05-16 18:36:00,T0372,EXC104,OP1007,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Day,22.6,Expert,6,1513.0,8.5,14,29,2.2,Unfastened,Yes,90,104.1,Unusual
+2025-05-29 14:43:00,T0373,EXC104,OP1001,Earth Excavation,Mining,Windy,Flat,Night,35.7,Expert,6,1513.4,5.1,14,4,24.7,Fastened,No,60,71.9,Normal
+2025-05-21 05:02:00,T0374,EXC100,OP1007,Demolition,Underground Hard-Rock Mining,Windy,Rocky,Day,16.6,Expert,4,1523.6,2.4,5,10,46.0,Fastened,No,90,107.0,Normal
+2025-05-29 16:15:00,T0375,EXC100,OP1003,Grading,Mining,Rainy,Incline,Day,32.3,Intermediate,4,1554.3,4.9,9,7,20.0,Fastened,No,35,52.8,Normal
+2025-05-20 11:15:00,T0376,EXC103,OP1001,Grading,Construction,Sunny,Rocky,Day,40.6,Expert,3,1566.4,0.9,1,10,8.0,Fastened,No,35,37.8,Normal
+2025-05-05 02:45:00,T0377,EXC105,OP1005,Grading,Underground Hard-Rock Mining,Sunny,Flat,Day,22.6,Beginner,5,1513.1,5.0,14,0,49.0,Fastened,No,35,46.2,Normal
+2025-05-09 13:51:00,T0378,EXC103,OP1000,Trenching,Mining,Windy,Incline,Night,16.4,Intermediate,3,1544.4,6.8,14,9,21.1,Fastened,No,45,66.8,Normal
+2025-05-09 16:06:00,T0379,EXC101,OP1003,Demolition,Underground Hard-Rock Mining,Windy,Incline,Night,12.7,Intermediate,8,1546.9,7.3,13,21,9.2,Fastened,No,90,148.3,Normal
+2025-05-29 16:58:00,T0380,EXC103,OP1004,Earth Excavation,Mining,Windy,Incline,Night,30.6,Beginner,3,1534.3,5.2,10,12,13.1,Fastened,No,60,105.0,Normal
+2025-05-06 21:54:00,T0381,EXC102,OP1003,Demolition,Mining,Windy,Flat,Day,29.5,Intermediate,8,1560.6,2.5,6,12,28.3,Fastened,No,90,116.9,Normal
+2025-05-28 10:12:00,T0382,EXC100,OP1002,Grading,Construction,Rainy,Incline,Night,25.5,Expert,4,1589.4,5.7,10,13,23.9,Fastened,No,35,51.5,Normal
+2025-05-11 03:34:00,T0383,EXC100,OP1005,Demolition,Mining,Cloudy,Flat,Day,28.0,Beginner,4,1544.8,4.1,9,11,13.3,Fastened,No,90,123.8,Normal
+2025-05-18 06:22:00,T0384,EXC105,OP1007,Material Loading,Mining,Sunny,Flat,Night,28.7,Expert,5,1500.6,3.3,2,55,47.1,Fastened,Yes,30,52.1,Unusual
+2025-05-25 15:44:00,T0385,EXC102,OP1000,Trenching,Construction,Cloudy,Incline,Night,39.9,Intermediate,8,1540.6,7.1,13,1,3.4,Unfastened,Yes,45,62.5,Normal
+2025-05-16 05:20:00,T0386,EXC103,OP1002,Trenching,Construction,Sunny,Incline,Day,28.5,Expert,3,1538.5,5.9,12,5,39.9,Fastened,No,45,50.8,Normal
+2025-05-26 08:40:00,T0387,EXC100,OP1004,Demolition,Construction,Sunny,Incline,Day,27.6,Beginner,4,1551.3,6.6,14,1,32.9,Fastened,No,90,139.3,Normal
+2025-05-19 10:23:00,T0388,EXC105,OP1005,Trenching,Construction,Cloudy,Rocky,Day,32.6,Beginner,5,1558.1,3.9,9,5,48.3,Fastened,No,45,67.8,Normal
+2025-05-11 11:44:00,T0389,EXC103,OP1003,Trenching,Construction,Cloudy,Rocky,Day,28.5,Intermediate,3,1510.6,3.4,8,2,2.9,Fastened,Yes,45,59.7,Normal
+2025-05-20 07:13:00,T0390,EXC103,OP1005,Grading,Construction,Cloudy,Rocky,Day,30.8,Beginner,3,1557.7,5.4,10,30,0.9,Fastened,Yes,35,67.6,Normal
+2025-05-21 04:36:00,T0391,EXC102,OP1001,Trenching,Underground Hard-Rock Mining,Windy,Rocky,Night,13.4,Expert,8,1593.8,5.0,6,61,10.4,Unfastened,Yes,45,78.5,Unusual
+2025-05-05 01:35:00,T0392,EXC103,OP1001,Trenching,Mining,Cloudy,Rocky,Night,22.4,Expert,3,1572.2,3.6,9,4,47.8,Fastened,No,45,45.2,Normal
+2025-05-17 14:24:00,T0393,EXC105,OP1004,Material Loading,Mining,Cloudy,Flat,Night,28.0,Beginner,5,1568.7,3.5,8,5,49.7,Fastened,No,30,40.0,Normal
+2025-05-09 21:38:00,T0394,EXC101,OP1002,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Night,25.5,Expert,8,1598.4,3.8,5,23,8.2,Fastened,No,30,50.1,Normal
+2025-05-03 14:47:00,T0395,EXC104,OP1007,Material Loading,Mining,Cloudy,Rocky,Day,30.9,Expert,6,1563.2,1.7,2,11,22.7,Unfastened,Yes,30,39.5,Normal
+2025-05-03 04:25:00,T0396,EXC100,OP1001,Grading,Underground Hard-Rock Mining,Cloudy,Flat,Day,21.0,Expert,4,1516.4,2.8,7,2,6.1,Fastened,No,35,37.3,Normal
+2025-05-08 04:19:00,T0397,EXC104,OP1000,Demolition,Mining,Sunny,Rocky,Night,33.6,Intermediate,6,1508.5,2.6,5,11,27.5,Fastened,No,90,120.1,Normal
+2025-05-18 09:02:00,T0398,EXC105,OP1000,Material Loading,Construction,Rainy,Rocky,Day,26.1,Intermediate,5,1526.7,3.1,5,20,4.2,Fastened,No,30,52.3,Normal
+2025-05-03 14:25:00,T0399,EXC102,OP1004,Trenching,Underground Hard-Rock Mining,Windy,Rocky,Night,20.5,Beginner,8,1582.1,3.5,5,36,6.1,Fastened,No,45,84.0,Normal
+2025-05-27 07:00:00,T0400,EXC102,OP1001,Grading,Underground Hard-Rock Mining,Rainy,Flat,Night,26.7,Expert,8,1502.5,3.6,10,1,1.6,Fastened,Yes,35,35.6,Normal
+2025-05-04 01:22:00,T0401,EXC101,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Incline,Day,26.2,Beginner,8,1575.2,1.9,4,0,41.4,Fastened,No,30,47.1,Normal
+2025-05-07 08:12:00,T0402,EXC101,OP1000,Trenching,Construction,Windy,Flat,Night,39.2,Intermediate,8,1527.5,2.1,4,14,34.3,Fastened,No,45,51.5,Normal
+2025-05-03 08:52:00,T0403,EXC105,OP1001,Grading,Mining,Rainy,Rocky,Day,32.1,Expert,5,1597.3,3.4,7,13,37.0,Fastened,No,35,60.6,Normal
+2025-05-15 17:17:00,T0404,EXC100,OP1005,Material Loading,Mining,Windy,Flat,Day,30.2,Beginner,4,1533.4,5.0,8,48,42.3,Unfastened,Yes,30,60.0,Normal
+2025-05-31 03:18:00,T0405,EXC100,OP1001,Demolition,Mining,Windy,Incline,Day,34.1,Expert,4,1587.0,6.7,13,4,29.6,Unfastened,Yes,90,112.8,Normal
+2025-05-22 14:13:00,T0406,EXC100,OP1004,Earth Excavation,Mining,Sunny,Incline,Night,27.0,Beginner,4,1596.7,7.7,13,26,33.9,Fastened,No,60,108.8,Unusual
+2025-05-30 10:25:00,T0407,EXC100,OP1003,Material Loading,Construction,Rainy,Rocky,Day,24.3,Intermediate,4,1510.6,2.2,3,18,39.0,Fastened,No,30,51.4,Normal
+2025-05-19 00:41:00,T0408,EXC105,OP1003,Demolition,Underground Hard-Rock Mining,Windy,Flat,Day,19.2,Intermediate,5,1543.2,1.5,5,0,9.2,Fastened,No,90,110.3,Normal
+2025-05-04 18:37:00,T0409,EXC103,OP1007,Demolition,Mining,Rainy,Flat,Day,26.6,Expert,3,1575.4,1.1,3,5,34.3,Fastened,No,90,107.5,Normal
+2025-05-13 13:06:00,T0410,EXC102,OP1004,Demolition,Underground Hard-Rock Mining,Rainy,Rocky,Night,24.7,Beginner,8,1590.6,1.8,2,16,44.8,Fastened,No,90,171.7,Normal
+2025-05-16 18:52:00,T0411,EXC101,OP1007,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Day,22.5,Expert,8,1546.9,1.4,3,7,7.6,Fastened,No,60,71.8,Normal
+2025-05-02 08:40:00,T0412,EXC102,OP1004,Material Loading,Mining,Sunny,Flat,Day,25.4,Beginner,8,1508.7,3.4,4,34,34.0,Fastened,No,30,45.7,Normal
+2025-05-25 16:39:00,T0413,EXC104,OP1003,Trenching,Mining,Sunny,Incline,Day,20.8,Intermediate,6,1518.3,7.0,14,12,11.7,Fastened,No,45,60.1,Normal
+2025-05-29 03:24:00,T0414,EXC103,OP1001,Grading,Underground Hard-Rock Mining,Sunny,Rocky,Day,18.3,Expert,3,1531.0,0.8,1,2,12.3,Fastened,No,35,37.6,Normal
+2025-05-04 01:47:00,T0415,EXC101,OP1003,Earth Excavation,Mining,Rainy,Flat,Day,25.2,Intermediate,8,1571.9,5.9,13,22,23.2,Fastened,No,60,87.6,Normal
+2025-05-25 11:57:00,T0416,EXC101,OP1004,Trenching,Underground Hard-Rock Mining,Rainy,Rocky,Day,22.9,Beginner,8,1580.5,6.0,13,6,25.4,Fastened,No,45,85.9,Normal
+2025-05-17 01:23:00,T0417,EXC105,OP1004,Demolition,Mining,Cloudy,Flat,Day,30.8,Beginner,5,1521.3,6.5,13,33,4.9,Fastened,No,90,129.2,Normal
+2025-05-13 10:28:00,T0418,EXC103,OP1006,Material Loading,Underground Hard-Rock Mining,Cloudy,Flat,Day,31.1,Beginner,3,1514.4,4.6,12,2,42.2,Fastened,No,30,41.7,Normal
+2025-05-29 17:37:00,T0419,EXC103,OP1001,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,18.9,Expert,3,1536.2,3.7,7,7,31.9,Unfastened,Yes,45,55.6,Normal
+2025-05-19 20:51:00,T0420,EXC100,OP1001,Trenching,Mining,Windy,Rocky,Day,34.5,Expert,4,1591.0,1.0,2,3,36.9,Fastened,No,45,56.1,Normal
+2025-05-27 11:15:00,T0421,EXC101,OP1005,Earth Excavation,Mining,Cloudy,Incline,Night,28.7,Beginner,8,1576.2,5.3,8,23,31.8,Fastened,No,60,113.0,Normal
+2025-05-05 23:45:00,T0422,EXC103,OP1004,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Night,8.9,Beginner,3,1523.3,2.8,7,9,3.9,Fastened,No,60,75.7,Normal
+2025-05-06 16:56:00,T0423,EXC104,OP1001,Demolition,Mining,Windy,Incline,Day,22.8,Expert,6,1562.7,10.6,13,108,24.6,Fastened,Yes,90,149.0,Unusual
+2025-05-20 03:01:00,T0424,EXC105,OP1001,Trenching,Construction,Windy,Incline,Night,30.6,Expert,5,1561.9,1.2,1,12,47.6,Fastened,No,45,59.0,Normal
+2025-05-15 09:50:00,T0425,EXC102,OP1003,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Night,15.4,Intermediate,8,1530.2,4.1,9,3,46.4,Fastened,No,30,39.4,Normal
+2025-05-14 03:22:00,T0426,EXC101,OP1006,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Night,30.3,Beginner,8,1543.0,3.1,9,3,39.0,Fastened,No,30,52.4,Normal
+2025-05-11 23:30:00,T0427,EXC104,OP1003,Trenching,Mining,Windy,Flat,Day,37.4,Intermediate,6,1568.5,6.4,14,37,2.6,Fastened,Yes,45,63.0,Normal
+2025-05-08 09:43:00,T0428,EXC101,OP1002,Trenching,Underground Hard-Rock Mining,Rainy,Incline,Day,20.6,Expert,8,1598.0,6.1,10,31,15.8,Fastened,No,45,72.8,Normal
+2025-05-06 15:26:00,T0429,EXC100,OP1004,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,19.2,Beginner,4,1508.1,2.4,1,47,46.9,Unfastened,Yes,60,105.8,Unusual
+2025-05-14 06:13:00,T0430,EXC105,OP1005,Demolition,Mining,Sunny,Incline,Day,32.7,Beginner,5,1556.7,2.3,2,15,48.0,Unfastened,Yes,90,150.2,Normal
+2025-05-06 23:02:00,T0431,EXC100,OP1002,Trenching,Mining,Windy,Incline,Night,35.0,Expert,4,1501.3,8.3,13,46,41.0,Fastened,Yes,45,66.1,Unusual
+2025-05-30 20:16:00,T0432,EXC101,OP1007,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Day,23.8,Expert,8,1586.0,1.8,3,18,13.0,Fastened,No,60,63.9,Normal
+2025-05-10 10:37:00,T0433,EXC103,OP1002,Demolition,Underground Hard-Rock Mining,Windy,Flat,Day,19.2,Expert,3,1554.7,5.7,12,33,15.2,Fastened,No,90,102.1,Normal
+2025-05-16 01:59:00,T0434,EXC103,OP1006,Earth Excavation,Construction,Windy,Incline,Day,30.9,Beginner,3,1562.3,7.0,11,46,16.3,Fastened,Yes,60,116.9,Normal
+2025-05-17 19:11:00,T0435,EXC100,OP1001,Trenching,Construction,Cloudy,Flat,Day,24.1,Expert,4,1570.0,4.0,7,38,4.4,Fastened,No,45,55.2,Normal
+2025-05-20 10:26:00,T0436,EXC101,OP1000,Demolition,Construction,Windy,Incline,Night,23.1,Intermediate,8,1534.1,1.8,2,13,17.0,Fastened,No,90,139.8,Normal
+2025-05-08 07:25:00,T0437,EXC102,OP1000,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Day,23.9,Intermediate,8,1577.3,4.4,11,7,23.3,Fastened,No,30,44.9,Normal
+2025-05-02 06:07:00,T0438,EXC103,OP1005,Material Loading,Mining,Sunny,Rocky,Day,20.3,Beginner,3,1527.8,4.7,9,13,33.4,Unfastened,Yes,30,44.6,Normal
+2025-05-09 23:06:00,T0439,EXC105,OP1003,Earth Excavation,Mining,Cloudy,Flat,Day,28.2,Intermediate,5,1587.4,6.5,14,34,9.9,Fastened,No,60,75.7,Normal
+2025-05-11 08:47:00,T0440,EXC101,OP1003,Demolition,Construction,Cloudy,Incline,Day,25.4,Intermediate,8,1592.3,1.3,2,2,2.4,Fastened,Yes,90,132.7,Normal
+2025-05-05 09:53:00,T0441,EXC102,OP1005,Demolition,Underground Hard-Rock Mining,Windy,Incline,Night,24.9,Beginner,8,1551.0,3.8,7,2,33.5,Fastened,No,90,162.1,Normal
+2025-05-15 04:34:00,T0442,EXC103,OP1001,Trenching,Underground Hard-Rock Mining,Windy,Rocky,Night,20.9,Expert,3,1563.7,5.0,10,15,6.3,Fastened,No,45,57.2,Normal
+2025-05-26 07:53:00,T0443,EXC105,OP1006,Trenching,Construction,Rainy,Rocky,Day,30.6,Beginner,5,1554.0,3.4,5,25,34.2,Fastened,No,45,91.6,Normal
+2025-05-27 16:58:00,T0444,EXC105,OP1007,Demolition,Construction,Windy,Incline,Day,26.1,Expert,5,1525.5,7.3,14,11,15.5,Fastened,No,90,110.0,Normal
+2025-05-17 13:35:00,T0445,EXC100,OP1002,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Night,12.8,Expert,4,1572.3,6.0,13,4,48.5,Unfastened,Yes,60,66.3,Normal
+2025-05-20 15:09:00,T0446,EXC101,OP1002,Demolition,Construction,Windy,Rocky,Night,34.8,Expert,8,1500.2,3.1,6,3,4.1,Fastened,No,90,109.7,Normal
+2025-05-08 14:59:00,T0447,EXC104,OP1006,Trenching,Construction,Cloudy,Rocky,Day,24.9,Beginner,6,1505.1,5.6,10,43,12.6,Fastened,No,45,85.5,Normal
+2025-05-22 15:02:00,T0448,EXC101,OP1006,Earth Excavation,Construction,Sunny,Incline,Night,21.3,Beginner,8,1519.0,7.2,14,9,0.7,Fastened,Yes,60,91.0,Normal
+2025-05-10 09:23:00,T0449,EXC101,OP1006,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,30.0,Beginner,8,1521.6,1.5,2,15,38.0,Fastened,No,45,80.1,Normal
+2025-05-24 13:20:00,T0450,EXC105,OP1003,Grading,Underground Hard-Rock Mining,Sunny,Incline,Day,23.8,Intermediate,5,1533.7,3.9,8,2,33.8,Fastened,No,35,46.5,Normal
+2025-05-27 11:52:00,T0451,EXC101,OP1007,Material Loading,Construction,Rainy,Incline,Day,34.6,Expert,8,1505.1,3.1,6,2,32.1,Fastened,No,30,44.9,Normal
+2025-05-12 18:48:00,T0452,EXC101,OP1001,Grading,Mining,Cloudy,Rocky,Day,29.0,Expert,8,1584.4,5.9,12,15,19.5,Unfastened,Yes,35,51.2,Normal
+2025-05-02 12:23:00,T0453,EXC100,OP1004,Earth Excavation,Construction,Rainy,Flat,Day,32.6,Beginner,4,1532.0,2.4,4,23,33.8,Fastened,No,60,96.8,Normal
+2025-05-07 11:58:00,T0454,EXC102,OP1002,Earth Excavation,Construction,Rainy,Rocky,Day,37.2,Expert,8,1501.4,1.5,2,14,33.7,Fastened,No,60,89.2,Normal
+2025-05-08 20:52:00,T0455,EXC100,OP1000,Grading,Mining,Sunny,Flat,Day,28.9,Intermediate,4,1561.8,3.6,9,8,21.6,Unfastened,Yes,35,48.3,Normal
+2025-05-07 02:24:00,T0456,EXC102,OP1002,Grading,Mining,Rainy,Flat,Day,26.7,Expert,8,1571.7,2.3,6,6,21.0,Fastened,No,35,42.0,Normal
+2025-05-26 22:21:00,T0457,EXC104,OP1003,Grading,Underground Hard-Rock Mining,Windy,Flat,Day,27.8,Intermediate,6,1582.5,3.0,7,6,30.0,Fastened,No,35,42.4,Normal
+2025-05-04 11:42:00,T0458,EXC101,OP1006,Trenching,Mining,Windy,Flat,Night,30.1,Beginner,8,1531.1,2.3,7,1,23.0,Fastened,No,45,66.3,Normal
+2025-05-21 08:35:00,T0459,EXC102,OP1003,Earth Excavation,Construction,Windy,Flat,Day,33.7,Intermediate,8,1596.8,4.3,11,2,34.7,Fastened,No,60,78.6,Normal
+2025-05-29 23:41:00,T0460,EXC102,OP1007,Demolition,Mining,Cloudy,Incline,Day,31.5,Expert,8,1508.8,1.4,1,25,28.3,Fastened,No,90,119.2,Normal
+2025-05-06 00:55:00,T0461,EXC103,OP1007,Trenching,Mining,Sunny,Incline,Night,32.5,Expert,3,1566.0,4.2,8,7,25.8,Fastened,No,45,55.9,Normal
+2025-05-16 22:46:00,T0462,EXC101,OP1000,Grading,Mining,Windy,Incline,Night,28.1,Intermediate,8,1550.5,6.6,10,43,5.6,Fastened,No,35,61.8,Normal
+2025-05-29 20:09:00,T0463,EXC100,OP1007,Trenching,Construction,Windy,Incline,Night,30.2,Expert,4,1577.5,6.5,11,21,47.7,Fastened,No,45,63.4,Normal
+2025-05-19 09:19:00,T0464,EXC103,OP1002,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Day,25.4,Expert,3,1596.9,3.6,8,11,5.2,Unfastened,Yes,30,30.4,Normal
+2025-05-14 18:05:00,T0465,EXC105,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Day,15.6,Beginner,5,1568.6,2.7,1,59,35.3,Fastened,Yes,60,110.6,Unusual
+2025-05-14 04:08:00,T0466,EXC101,OP1003,Material Loading,Construction,Rainy,Incline,Day,34.9,Intermediate,8,1565.0,2.7,4,14,29.8,Fastened,No,30,49.1,Normal
+2025-05-08 11:40:00,T0467,EXC102,OP1002,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,20.6,Expert,8,1570.6,3.7,7,4,7.0,Fastened,No,45,57.9,Normal
+2025-05-25 20:54:00,T0468,EXC100,OP1001,Demolition,Underground Hard-Rock Mining,Rainy,Flat,Night,21.7,Expert,4,1584.1,3.5,9,1,42.8,Fastened,No,90,104.1,Normal
+2025-05-28 06:09:00,T0469,EXC100,OP1004,Grading,Underground Hard-Rock Mining,Rainy,Incline,Day,24.9,Beginner,4,1572.7,4.4,9,3,11.0,Fastened,No,35,64.1,Normal
+2025-05-29 09:24:00,T0470,EXC100,OP1004,Demolition,Underground Hard-Rock Mining,Windy,Incline,Day,24.7,Beginner,4,1584.2,1.2,2,5,46.3,Fastened,No,90,152.9,Normal
+2025-05-04 01:30:00,T0471,EXC102,OP1005,Demolition,Underground Hard-Rock Mining,Cloudy,Rocky,Day,24.6,Beginner,8,1596.7,5.7,12,14,35.0,Fastened,No,90,146.3,Normal
+2025-05-12 16:35:00,T0472,EXC100,OP1002,Earth Excavation,Mining,Sunny,Flat,Day,33.8,Expert,4,1576.1,5.4,14,6,30.6,Fastened,No,60,56.5,Normal
+2025-05-05 03:42:00,T0473,EXC104,OP1005,Grading,Construction,Windy,Flat,Day,23.5,Beginner,6,1556.2,1.5,4,12,32.0,Fastened,No,35,54.0,Normal
+2025-05-01 14:39:00,T0474,EXC102,OP1007,Earth Excavation,Mining,Cloudy,Rocky,Night,27.1,Expert,8,1508.7,1.9,2,11,12.9,Fastened,No,60,70.0,Normal
+2025-05-10 01:04:00,T0475,EXC105,OP1007,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Day,25.9,Expert,5,1502.9,7.8,12,50,26.9,Fastened,Yes,30,43.9,Unusual
+2025-05-26 23:46:00,T0476,EXC100,OP1000,Trenching,Construction,Rainy,Incline,Night,36.1,Intermediate,4,1590.0,6.2,12,7,2.3,Fastened,Yes,45,74.9,Normal
+2025-05-27 13:49:00,T0477,EXC100,OP1000,Demolition,Construction,Cloudy,Incline,Day,40.7,Intermediate,4,1577.9,2.1,1,34,40.5,Fastened,No,90,136.2,Normal
+2025-05-13 00:14:00,T0478,EXC102,OP1006,Grading,Underground Hard-Rock Mining,Windy,Flat,Night,31.2,Beginner,8,1594.8,3.4,8,8,22.8,Unfastened,Yes,35,57.7,Normal
+2025-05-26 07:09:00,T0479,EXC102,OP1006,Material Loading,Construction,Cloudy,Incline,Day,21.4,Beginner,8,1572.4,4.0,6,23,4.9,Fastened,No,30,56.3,Normal
+2025-05-07 08:31:00,T0480,EXC103,OP1001,Trenching,Construction,Cloudy,Incline,Day,34.1,Expert,3,1513.5,6.3,11,16,39.9,Fastened,No,45,55.3,Normal
+2025-05-02 18:36:00,T0481,EXC103,OP1007,Grading,Construction,Rainy,Flat,Day,35.5,Expert,3,1524.6,4.1,8,35,30.6,Fastened,No,35,53.7,Normal
+2025-05-21 15:37:00,T0482,EXC105,OP1007,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Day,22.3,Expert,5,1551.7,0.5,1,0,4.1,Fastened,No,60,63.0,Unusual
+2025-05-03 12:18:00,T0483,EXC105,OP1001,Grading,Construction,Cloudy,Rocky,Day,39.0,Expert,5,1535.9,6.9,13,33,28.8,Fastened,No,35,47.1,Normal
+2025-05-09 08:16:00,T0484,EXC101,OP1005,Earth Excavation,Mining,Sunny,Flat,Day,37.0,Beginner,8,1522.7,5.1,13,2,42.9,Fastened,No,60,77.7,Normal
+2025-05-22 08:48:00,T0485,EXC102,OP1005,Demolition,Mining,Windy,Incline,Day,28.6,Beginner,8,1559.6,6.5,10,30,27.7,Unfastened,Yes,90,169.0,Normal
+2025-05-06 00:03:00,T0486,EXC102,OP1001,Earth Excavation,Mining,Rainy,Flat,Night,35.7,Expert,8,1500.4,4.7,11,11,32.1,Fastened,No,60,71.1,Normal
+2025-05-22 20:33:00,T0487,EXC101,OP1000,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Night,19.1,Intermediate,8,1551.8,3.7,7,1,22.8,Unfastened,Yes,90,123.8,Normal
+2025-05-03 12:22:00,T0488,EXC103,OP1000,Demolition,Mining,Sunny,Incline,Day,36.0,Intermediate,3,1506.5,2.4,2,31,6.1,Fastened,No,90,124.9,Normal
+2025-05-20 09:59:00,T0489,EXC105,OP1002,Trenching,Mining,Sunny,Incline,Night,29.2,Expert,5,1548.2,1.2,1,18,20.3,Fastened,No,45,57.2,Normal
+2025-05-19 23:00:00,T0490,EXC105,OP1001,Grading,Mining,Sunny,Flat,Day,35.5,Expert,5,1526.0,6.8,12,65,3.3,Fastened,Yes,35,51.4,Unusual
+2025-05-26 14:10:00,T0491,EXC101,OP1003,Material Loading,Underground Hard-Rock Mining,Sunny,Incline,Night,15.6,Intermediate,8,1510.0,1.6,1,21,25.7,Fastened,No,30,47.3,Normal
+2025-05-13 05:53:00,T0492,EXC102,OP1000,Earth Excavation,Underground Hard-Rock Mining,Rainy,Rocky,Night,18.7,Intermediate,8,1577.0,2.8,6,4,34.0,Fastened,No,60,97.3,Normal
+2025-05-08 04:12:00,T0493,EXC101,OP1007,Demolition,Mining,Cloudy,Rocky,Night,28.0,Expert,8,1561.9,2.3,5,6,29.8,Fastened,No,90,111.3,Normal
+2025-05-08 07:01:00,T0494,EXC105,OP1000,Material Loading,Construction,Cloudy,Incline,Day,34.3,Intermediate,5,1559.9,7.7,14,38,30.3,Fastened,No,30,48.3,Normal
+2025-05-25 07:09:00,T0495,EXC104,OP1006,Material Loading,Construction,Windy,Flat,Night,26.9,Beginner,6,1590.9,2.6,3,33,10.4,Fastened,No,30,49.7,Normal
+2025-05-08 03:21:00,T0496,EXC100,OP1007,Grading,Underground Hard-Rock Mining,Sunny,Flat,Day,27.7,Expert,4,1562.0,2.4,6,7,24.5,Fastened,No,35,27.6,Normal
+2025-05-26 05:55:00,T0497,EXC100,OP1004,Earth Excavation,Construction,Sunny,Incline,Day,29.7,Beginner,4,1565.9,6.6,9,46,19.5,Fastened,Yes,60,111.3,Normal
+2025-05-19 14:25:00,T0498,EXC101,OP1007,Trenching,Construction,Windy,Rocky,Day,29.9,Expert,8,1568.1,3.2,8,0,11.9,Unfastened,Yes,45,58.5,Normal
+2025-05-11 20:08:00,T0499,EXC102,OP1005,Earth Excavation,Construction,Rainy,Flat,Day,23.8,Beginner,8,1575.5,4.0,4,48,20.9,Fastened,Yes,60,112.9,Normal
+2025-05-17 08:18:00,T0500,EXC104,OP1004,Earth Excavation,Mining,Windy,Flat,Night,23.0,Beginner,6,1586.2,3.4,10,1,24.0,Fastened,No,60,86.9,Normal
+2025-05-24 04:12:00,T0501,EXC101,OP1001,Demolition,Mining,Rainy,Flat,Day,33.2,Expert,8,1514.7,6.7,14,42,37.8,Unfastened,Yes,90,107.1,Normal
+2025-05-04 19:22:00,T0502,EXC103,OP1004,Grading,Construction,Windy,Incline,Day,23.5,Beginner,3,1570.3,6.4,11,14,42.6,Fastened,No,35,60.8,Normal
+2025-05-16 12:06:00,T0503,EXC103,OP1006,Trenching,Construction,Rainy,Rocky,Day,19.0,Beginner,3,1574.9,4.7,9,8,33.8,Fastened,No,45,89.6,Normal
+2025-05-11 06:08:00,T0504,EXC100,OP1001,Demolition,Mining,Cloudy,Flat,Night,30.4,Expert,4,1536.9,6.8,13,58,46.5,Unfastened,Yes,90,102.7,Unusual
+2025-05-30 21:45:00,T0505,EXC100,OP1006,Trenching,Construction,Cloudy,Flat,Night,33.6,Beginner,4,1539.2,2.7,5,29,19.2,Fastened,No,45,67.1,Normal
+2025-05-30 20:26:00,T0506,EXC101,OP1000,Earth Excavation,Construction,Cloudy,Rocky,Night,26.7,Intermediate,8,1502.1,6.1,9,46,43.0,Fastened,Yes,60,92.6,Unusual
+2025-05-01 16:52:00,T0507,EXC104,OP1007,Material Loading,Construction,Windy,Flat,Day,33.8,Expert,6,1545.4,5.1,11,36,22.7,Fastened,No,30,50.4,Normal
+2025-05-18 12:03:00,T0508,EXC100,OP1004,Material Loading,Mining,Windy,Rocky,Night,32.3,Beginner,4,1507.8,2.7,3,26,46.5,Fastened,No,30,57.0,Normal
+2025-05-06 10:06:00,T0509,EXC105,OP1000,Trenching,Mining,Windy,Rocky,Day,30.2,Intermediate,5,1567.7,7.0,14,20,17.2,Fastened,No,45,63.2,Normal
+2025-05-31 04:01:00,T0510,EXC100,OP1002,Grading,Construction,Cloudy,Incline,Day,27.0,Expert,4,1580.6,2.9,4,17,17.1,Fastened,No,35,54.5,Normal
+2025-05-02 10:15:00,T0511,EXC104,OP1003,Grading,Underground Hard-Rock Mining,Rainy,Flat,Day,14.4,Intermediate,6,1508.6,5.2,12,13,22.9,Fastened,No,35,50.3,Normal
+2025-05-02 11:49:00,T0512,EXC101,OP1004,Earth Excavation,Mining,Rainy,Rocky,Night,29.1,Beginner,8,1561.3,2.8,4,7,48.5,Fastened,No,60,113.2,Normal
+2025-05-17 08:35:00,T0513,EXC104,OP1005,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,18.6,Beginner,6,1532.7,4.7,7,23,45.4,Fastened,No,30,64.5,Normal
+2025-05-22 12:15:00,T0514,EXC101,OP1002,Trenching,Mining,Rainy,Rocky,Day,24.8,Expert,8,1532.5,6.0,11,27,38.3,Fastened,No,45,71.9,Normal
+2025-05-11 17:22:00,T0515,EXC104,OP1000,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Flat,Day,18.3,Intermediate,6,1593.4,2.2,3,19,25.5,Fastened,No,60,74.9,Normal
+2025-05-16 05:46:00,T0516,EXC103,OP1000,Demolition,Construction,Rainy,Incline,Night,27.6,Intermediate,3,1551.8,3.7,6,7,31.6,Fastened,No,90,144.5,Normal
+2025-05-09 01:34:00,T0517,EXC100,OP1002,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Night,24.4,Expert,4,1581.8,1.7,3,9,5.3,Fastened,No,30,36.0,Normal
+2025-05-19 23:59:00,T0518,EXC103,OP1001,Grading,Mining,Rainy,Flat,Night,29.9,Expert,3,1513.5,4.6,11,29,30.5,Fastened,No,35,53.0,Normal
+2025-05-03 01:06:00,T0519,EXC101,OP1000,Earth Excavation,Underground Hard-Rock Mining,Sunny,Incline,Day,23.8,Intermediate,8,1593.2,2.1,2,26,43.8,Fastened,No,60,89.1,Normal
+2025-05-16 07:42:00,T0520,EXC103,OP1002,Trenching,Construction,Cloudy,Flat,Night,20.6,Expert,3,1507.1,2.7,6,3,46.9,Fastened,No,45,52.7,Normal
+2025-05-24 16:34:00,T0521,EXC100,OP1006,Demolition,Mining,Cloudy,Rocky,Night,29.2,Beginner,4,1544.2,5.4,12,6,18.7,Fastened,No,90,144.8,Normal
+2025-05-18 14:57:00,T0522,EXC101,OP1000,Grading,Underground Hard-Rock Mining,Rainy,Flat,Day,18.0,Intermediate,8,1566.9,3.7,10,3,46.5,Fastened,No,35,41.0,Normal
+2025-05-15 17:54:00,T0523,EXC102,OP1001,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Night,13.9,Expert,8,1519.0,3.0,6,10,37.4,Fastened,No,60,68.8,Normal
+2025-05-10 00:12:00,T0524,EXC103,OP1001,Trenching,Underground Hard-Rock Mining,Windy,Rocky,Day,12.5,Expert,3,1587.5,6.3,14,11,44.1,Fastened,No,45,56.7,Normal
+2025-05-25 06:40:00,T0525,EXC100,OP1005,Earth Excavation,Mining,Windy,Incline,Day,31.4,Beginner,4,1554.7,1.1,1,13,48.9,Fastened,No,60,106.7,Normal
+2025-05-02 23:00:00,T0526,EXC101,OP1001,Earth Excavation,Mining,Windy,Rocky,Day,23.8,Expert,8,1588.8,5.6,12,1,20.4,Fastened,No,60,70.1,Normal
+2025-05-24 00:53:00,T0527,EXC100,OP1001,Material Loading,Construction,Cloudy,Flat,Night,25.3,Expert,4,1532.1,3.5,9,5,24.4,Fastened,No,30,29.4,Normal
+2025-05-08 17:38:00,T0528,EXC101,OP1005,Demolition,Underground Hard-Rock Mining,Rainy,Incline,Day,22.9,Beginner,8,1557.6,5.0,9,4,21.5,Fastened,No,90,176.3,Normal
+2025-05-31 00:16:00,T0529,EXC105,OP1005,Demolition,Underground Hard-Rock Mining,Cloudy,Incline,Day,22.0,Beginner,5,1554.4,4.7,10,1,9.2,Fastened,No,90,153.1,Normal
+2025-05-22 15:02:00,T0530,EXC103,OP1007,Earth Excavation,Underground Hard-Rock Mining,Windy,Flat,Day,27.2,Expert,3,1573.2,2.0,5,13,33.9,Fastened,No,60,66.4,Normal
+2025-05-24 01:19:00,T0531,EXC105,OP1002,Trenching,Mining,Sunny,Flat,Day,17.8,Expert,5,1558.9,4.4,9,23,39.0,Fastened,No,45,50.5,Normal
+2025-05-25 14:17:00,T0532,EXC100,OP1002,Material Loading,Construction,Sunny,Incline,Day,35.8,Expert,4,1502.5,7.9,14,17,6.9,Fastened,No,30,40.4,Unusual
+2025-05-29 07:29:00,T0533,EXC102,OP1005,Earth Excavation,Construction,Sunny,Flat,Day,20.5,Beginner,8,1536.4,2.6,4,14,17.0,Fastened,No,60,77.4,Normal
+2025-05-19 22:00:00,T0534,EXC102,OP1004,Demolition,Construction,Windy,Incline,Day,25.5,Beginner,8,1518.2,5.7,12,2,32.8,Fastened,No,90,169.4,Normal
+2025-05-01 23:54:00,T0535,EXC103,OP1004,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Day,15.8,Beginner,3,1546.0,2.9,5,11,42.2,Fastened,No,60,105.6,Normal
+2025-05-10 13:31:00,T0536,EXC104,OP1004,Trenching,Mining,Rainy,Rocky,Night,30.3,Beginner,6,1595.6,2.7,3,36,10.2,Fastened,No,45,95.1,Normal
+2025-05-09 06:25:00,T0537,EXC101,OP1000,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Day,21.6,Intermediate,8,1599.6,2.8,6,9,18.7,Fastened,No,30,37.9,Normal
+2025-05-07 22:11:00,T0538,EXC102,OP1006,Earth Excavation,Mining,Sunny,Flat,Day,22.4,Beginner,8,1587.1,4.3,9,17,27.4,Fastened,No,60,87.9,Normal
+2025-05-24 23:38:00,T0539,EXC101,OP1002,Grading,Mining,Rainy,Incline,Day,38.4,Expert,8,1542.1,4.9,5,63,46.7,Fastened,Yes,35,69.6,Unusual
+2025-05-05 23:26:00,T0540,EXC103,OP1005,Trenching,Mining,Windy,Incline,Day,34.0,Beginner,3,1586.7,7.5,13,22,6.9,Unfastened,Yes,45,83.7,Normal
+2025-05-30 17:45:00,T0541,EXC101,OP1001,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Night,15.4,Expert,8,1522.4,5.8,13,0,30.7,Unfastened,Yes,60,71.5,Normal
+2025-05-27 10:16:00,T0542,EXC100,OP1001,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Day,26.2,Expert,4,1556.0,5.8,8,53,42.4,Fastened,Yes,30,55.0,Normal
+2025-05-01 20:57:00,T0543,EXC104,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Day,24.5,Beginner,6,1578.9,3.5,4,35,15.0,Fastened,No,30,57.5,Normal
+2025-05-15 02:25:00,T0544,EXC101,OP1000,Demolition,Mining,Rainy,Flat,Day,32.2,Intermediate,8,1583.0,1.4,3,2,26.8,Fastened,No,90,134.2,Normal
+2025-05-01 16:32:00,T0545,EXC102,OP1000,Demolition,Construction,Windy,Rocky,Night,30.4,Intermediate,8,1535.0,3.5,7,9,41.7,Fastened,No,90,135.6,Normal
+2025-05-15 02:17:00,T0546,EXC103,OP1002,Grading,Construction,Windy,Flat,Night,25.4,Expert,3,1500.8,5.2,14,5,36.8,Fastened,No,35,40.2,Unusual
+2025-05-25 21:16:00,T0547,EXC100,OP1005,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Day,15.4,Beginner,4,1582.5,0.5,1,1,42.1,Fastened,No,60,80.5,Unusual
+2025-05-11 19:05:00,T0548,EXC102,OP1000,Demolition,Underground Hard-Rock Mining,Windy,Rocky,Night,23.5,Intermediate,8,1528.1,3.5,8,3,42.1,Fastened,No,90,134.1,Normal
+2025-05-21 16:55:00,T0549,EXC105,OP1006,Earth Excavation,Construction,Cloudy,Incline,Day,27.2,Beginner,5,1563.9,6.9,12,27,22.2,Fastened,No,60,108.1,Normal
+2025-05-28 09:20:00,T0550,EXC102,OP1002,Earth Excavation,Construction,Sunny,Rocky,Day,35.5,Expert,8,1514.6,2.9,2,46,16.6,Fastened,Yes,60,87.5,Normal
+2025-05-02 17:14:00,T0551,EXC105,OP1004,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,22.8,Beginner,5,1589.4,5.6,13,8,13.5,Fastened,No,30,52.0,Normal
+2025-05-15 04:27:00,T0552,EXC100,OP1000,Grading,Construction,Rainy,Flat,Night,25.5,Intermediate,4,1556.9,4.2,8,27,24.1,Fastened,No,35,57.8,Normal
+2025-05-16 19:14:00,T0553,EXC104,OP1005,Demolition,Construction,Sunny,Flat,Day,28.5,Beginner,6,1576.5,5.4,13,7,49.3,Fastened,No,90,124.3,Normal
+2025-05-24 21:32:00,T0554,EXC100,OP1004,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Day,22.1,Beginner,4,1574.0,7.6,14,29,42.0,Fastened,No,30,62.2,Normal
+2025-05-01 11:29:00,T0555,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Day,28.0,Intermediate,4,1589.8,0.8,1,6,37.7,Fastened,No,30,37.7,Unusual
+2025-05-16 21:15:00,T0556,EXC105,OP1002,Grading,Underground Hard-Rock Mining,Rainy,Incline,Night,28.7,Expert,5,1503.3,7.4,14,11,7.7,Unfastened,Yes,35,44.4,Unusual
+2025-05-21 22:05:00,T0557,EXC101,OP1001,Demolition,Mining,Sunny,Incline,Day,32.0,Expert,8,1514.0,4.1,7,11,27.3,Fastened,No,90,103.7,Normal
+2025-05-02 01:20:00,T0558,EXC101,OP1001,Demolition,Construction,Sunny,Incline,Night,30.4,Expert,8,1558.0,4.9,8,18,23.4,Fastened,No,90,107.5,Normal
+2025-05-13 23:44:00,T0559,EXC100,OP1001,Grading,Mining,Windy,Rocky,Night,29.2,Expert,4,1581.5,5.4,12,14,33.6,Fastened,No,35,46.1,Normal
+2025-05-24 09:59:00,T0560,EXC104,OP1006,Material Loading,Mining,Windy,Flat,Night,32.3,Beginner,6,1552.8,2.7,6,9,35.6,Fastened,No,30,44.2,Normal
+2025-05-30 05:56:00,T0561,EXC104,OP1007,Trenching,Underground Hard-Rock Mining,Cloudy,Rocky,Day,22.1,Expert,6,1551.8,1.8,2,20,32.1,Fastened,No,45,53.8,Normal
+2025-05-05 06:22:00,T0562,EXC105,OP1002,Demolition,Mining,Sunny,Flat,Day,24.8,Expert,5,1526.4,1.3,1,11,46.9,Unfastened,Yes,90,91.8,Normal
+2025-05-16 11:42:00,T0563,EXC103,OP1000,Earth Excavation,Underground Hard-Rock Mining,Windy,Flat,Night,18.4,Intermediate,3,1510.7,4.4,12,5,42.3,Fastened,No,60,71.0,Normal
+2025-05-29 14:18:00,T0564,EXC101,OP1003,Earth Excavation,Underground Hard-Rock Mining,Sunny,Flat,Day,14.6,Intermediate,8,1562.4,4.0,7,47,20.9,Fastened,Yes,60,85.7,Normal
+2025-05-30 07:13:00,T0565,EXC104,OP1005,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,17.6,Beginner,6,1520.0,2.5,2,33,26.6,Unfastened,Yes,30,62.7,Normal
+2025-05-08 13:59:00,T0566,EXC105,OP1000,Earth Excavation,Underground Hard-Rock Mining,Rainy,Rocky,Night,25.1,Intermediate,5,1513.2,5.2,8,34,6.4,Fastened,No,60,103.0,Normal
+2025-05-22 18:57:00,T0567,EXC103,OP1000,Material Loading,Mining,Cloudy,Rocky,Day,38.6,Intermediate,3,1588.2,2.8,7,1,1.0,Fastened,Yes,30,33.6,Normal
+2025-05-01 19:19:00,T0568,EXC101,OP1003,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Day,27.1,Intermediate,8,1583.9,5.5,11,27,1.3,Fastened,Yes,45,63.0,Normal
+2025-05-14 07:19:00,T0569,EXC105,OP1003,Grading,Construction,Sunny,Rocky,Night,30.1,Intermediate,5,1556.4,6.7,13,34,20.0,Fastened,No,35,51.0,Normal
+2025-05-21 16:30:00,T0570,EXC103,OP1002,Demolition,Underground Hard-Rock Mining,Rainy,Incline,Night,13.8,Expert,3,1549.0,3.7,5,43,40.3,Fastened,No,90,134.6,Normal
+2025-05-06 21:07:00,T0571,EXC102,OP1000,Demolition,Mining,Windy,Incline,Day,35.2,Intermediate,8,1541.3,2.1,3,11,30.6,Fastened,No,90,136.8,Normal
+2025-05-05 19:32:00,T0572,EXC104,OP1002,Grading,Mining,Rainy,Incline,Night,37.6,Expert,6,1517.8,2.7,4,7,31.6,Unfastened,Yes,35,44.4,Normal
+2025-05-26 14:39:00,T0573,EXC103,OP1000,Grading,Underground Hard-Rock Mining,Sunny,Flat,Night,21.7,Intermediate,3,1511.3,5.2,13,17,24.0,Fastened,No,35,48.5,Normal
+2025-05-04 00:48:00,T0574,EXC100,OP1000,Earth Excavation,Mining,Windy,Rocky,Night,23.3,Intermediate,4,1579.0,1.4,3,6,26.7,Fastened,No,60,85.2,Normal
+2025-05-20 01:13:00,T0575,EXC103,OP1006,Material Loading,Construction,Rainy,Incline,Day,33.2,Beginner,3,1523.4,7.6,14,20,45.3,Fastened,No,30,56.8,Normal
+2025-05-13 22:56:00,T0576,EXC104,OP1000,Earth Excavation,Mining,Rainy,Incline,Night,30.3,Intermediate,6,1561.5,2.4,3,23,39.3,Fastened,No,60,97.2,Normal
+2025-05-16 22:28:00,T0577,EXC104,OP1005,Earth Excavation,Construction,Rainy,Flat,Day,26.4,Beginner,6,1527.3,1.6,3,12,5.7,Fastened,No,60,102.8,Normal
+2025-05-17 01:08:00,T0578,EXC101,OP1000,Earth Excavation,Mining,Cloudy,Rocky,Day,35.6,Intermediate,8,1504.0,4.8,9,22,20.4,Fastened,No,60,93.2,Normal
+2025-05-23 23:05:00,T0579,EXC105,OP1005,Trenching,Mining,Windy,Rocky,Day,32.0,Beginner,5,1541.1,3.0,4,27,1.0,Fastened,Yes,45,85.3,Normal
+2025-05-05 10:26:00,T0580,EXC103,OP1007,Trenching,Construction,Cloudy,Flat,Day,32.6,Expert,3,1579.4,6.4,14,30,3.1,Fastened,No,45,50.4,Normal
+2025-05-13 03:45:00,T0581,EXC101,OP1001,Material Loading,Mining,Windy,Rocky,Night,28.9,Expert,8,1571.1,2.3,6,2,48.0,Fastened,No,30,41.4,Normal
+2025-05-19 17:44:00,T0582,EXC105,OP1002,Grading,Mining,Sunny,Rocky,Day,33.1,Expert,5,1563.2,2.5,4,11,1.0,Fastened,Yes,35,40.7,Normal
+2025-05-08 04:30:00,T0583,EXC100,OP1000,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Day,20.3,Intermediate,4,1533.1,4.2,9,5,29.5,Fastened,No,35,53.3,Normal
+2025-05-02 11:10:00,T0584,EXC100,OP1002,Grading,Construction,Sunny,Flat,Day,18.5,Expert,4,1566.1,0.7,1,10,18.9,Fastened,No,35,38.0,Normal
+2025-05-06 18:13:00,T0585,EXC105,OP1004,Trenching,Mining,Cloudy,Incline,Day,28.7,Beginner,5,1558.5,6.2,11,32,19.6,Fastened,No,45,83.7,Normal
+2025-05-29 20:27:00,T0586,EXC101,OP1001,Demolition,Construction,Rainy,Rocky,Day,32.5,Expert,8,1597.4,1.5,1,13,41.4,Fastened,No,90,121.3,Unusual
+2025-05-10 01:36:00,T0587,EXC101,OP1007,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Day,20.2,Expert,8,1577.8,2.0,2,16,39.6,Fastened,No,90,108.2,Normal
+2025-05-11 09:08:00,T0588,EXC104,OP1000,Material Loading,Construction,Rainy,Flat,Night,26.1,Intermediate,6,1564.5,2.7,6,16,39.2,Fastened,No,30,46.2,Normal
+2025-05-30 11:12:00,T0589,EXC102,OP1002,Trenching,Underground Hard-Rock Mining,Sunny,Incline,Day,17.9,Expert,8,1540.2,8.5,11,65,21.3,Fastened,Yes,45,62.7,Unusual
+2025-05-06 23:25:00,T0590,EXC102,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Night,20.2,Beginner,8,1580.3,3.4,8,5,10.3,Fastened,No,30,43.0,Normal
+2025-05-15 19:11:00,T0591,EXC100,OP1000,Material Loading,Mining,Cloudy,Flat,Day,30.1,Intermediate,4,1520.5,5.3,13,14,43.7,Fastened,No,30,32.1,Normal
+2025-05-22 12:53:00,T0592,EXC100,OP1001,Demolition,Underground Hard-Rock Mining,Sunny,Rocky,Day,16.8,Expert,4,1593.1,2.2,5,9,3.4,Fastened,No,90,102.8,Normal
+2025-05-27 14:01:00,T0593,EXC101,OP1006,Grading,Mining,Cloudy,Flat,Day,30.6,Beginner,8,1556.3,6.1,10,76,46.5,Fastened,Yes,35,70.6,Unusual
+2025-05-24 04:38:00,T0594,EXC101,OP1000,Material Loading,Construction,Sunny,Incline,Day,32.1,Intermediate,8,1558.9,3.2,6,0,6.0,Fastened,No,30,33.0,Normal
+2025-05-03 06:31:00,T0595,EXC104,OP1007,Material Loading,Mining,Rainy,Rocky,Day,32.4,Expert,6,1567.7,4.3,8,26,34.4,Fastened,No,30,52.9,Normal
+2025-05-23 22:02:00,T0596,EXC102,OP1006,Grading,Construction,Cloudy,Rocky,Day,24.2,Beginner,8,1524.7,4.5,10,2,10.9,Fastened,No,35,56.9,Normal
+2025-05-23 00:37:00,T0597,EXC102,OP1006,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,15.9,Beginner,8,1561.1,4.0,7,1,25.0,Fastened,No,45,76.4,Normal
+2025-05-13 11:11:00,T0598,EXC100,OP1006,Earth Excavation,Mining,Sunny,Rocky,Day,32.2,Beginner,4,1597.6,2.0,3,7,1.4,Fastened,Yes,60,92.9,Normal
+2025-05-06 14:12:00,T0599,EXC104,OP1003,Trenching,Construction,Windy,Flat,Day,31.7,Intermediate,6,1595.6,2.4,6,0,39.5,Fastened,No,45,58.6,Normal
+2025-05-09 01:48:00,T0600,EXC100,OP1003,Grading,Construction,Rainy,Incline,Day,24.9,Intermediate,4,1541.8,2.2,3,19,9.0,Unfastened,Yes,35,63.3,Normal
+2025-05-13 00:38:00,T0601,EXC103,OP1002,Earth Excavation,Mining,Rainy,Rocky,Night,33.2,Expert,3,1570.4,3.4,5,39,37.3,Fastened,No,60,93.3,Normal
+2025-05-27 08:04:00,T0602,EXC103,OP1006,Material Loading,Construction,Sunny,Flat,Night,32.4,Beginner,3,1582.2,4.6,12,2,22.1,Unfastened,Yes,30,40.8,Normal
+2025-05-23 11:35:00,T0603,EXC103,OP1002,Earth Excavation,Mining,Rainy,Rocky,Day,29.6,Expert,3,1552.8,5.5,9,33,12.1,Fastened,No,60,90.8,Normal
+2025-05-01 11:47:00,T0604,EXC100,OP1005,Grading,Construction,Sunny,Incline,Day,15.7,Beginner,4,1515.6,3.2,4,23,15.0,Fastened,No,35,70.7,Normal
+2025-05-10 05:38:00,T0605,EXC102,OP1002,Material Loading,Mining,Rainy,Flat,Day,39.4,Expert,8,1570.3,5.7,13,18,30.5,Fastened,No,30,44.1,Normal
+2025-05-09 14:26:00,T0606,EXC105,OP1003,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,25.4,Intermediate,5,1593.2,6.5,13,37,21.5,Fastened,No,30,42.4,Normal
+2025-05-18 16:25:00,T0607,EXC103,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Incline,Night,20.3,Beginner,3,1516.6,4.7,9,3,13.1,Fastened,No,30,45.7,Normal
+2025-05-13 22:58:00,T0608,EXC104,OP1004,Earth Excavation,Underground Hard-Rock Mining,Sunny,Rocky,Day,18.2,Beginner,6,1506.4,3.7,8,13,36.5,Fastened,No,60,94.0,Normal
+2025-05-20 22:51:00,T0609,EXC105,OP1006,Material Loading,Mining,Sunny,Flat,Day,32.8,Beginner,5,1526.1,6.1,14,39,39.4,Unfastened,Yes,30,48.1,Normal
+2025-05-06 09:30:00,T0610,EXC104,OP1006,Earth Excavation,Underground Hard-Rock Mining,Windy,Flat,Day,23.7,Beginner,6,1584.3,4.4,8,27,32.1,Fastened,No,60,98.7,Normal
+2025-05-25 01:09:00,T0611,EXC102,OP1004,Material Loading,Underground Hard-Rock Mining,Rainy,Flat,Day,23.3,Beginner,8,1567.7,3.3,6,21,47.8,Fastened,No,30,58.6,Normal
+2025-05-20 16:14:00,T0612,EXC104,OP1007,Earth Excavation,Construction,Rainy,Flat,Day,33.9,Expert,6,1546.9,6.0,13,40,7.4,Fastened,No,60,75.8,Normal
+2025-05-30 17:12:00,T0613,EXC102,OP1000,Grading,Underground Hard-Rock Mining,Cloudy,Incline,Day,25.9,Intermediate,8,1528.8,4.4,5,43,42.9,Fastened,No,35,60.9,Normal
+2025-05-10 13:30:00,T0614,EXC104,OP1003,Demolition,Construction,Cloudy,Incline,Day,17.0,Intermediate,6,1542.6,5.5,10,13,31.3,Fastened,No,90,137.7,Normal
+2025-05-29 16:14:00,T0615,EXC104,OP1006,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,20.5,Beginner,6,1528.5,2.3,5,12,29.5,Fastened,No,30,47.5,Normal
+2025-05-20 06:10:00,T0616,EXC103,OP1007,Grading,Construction,Cloudy,Incline,Day,33.0,Expert,3,1509.6,6.0,13,1,34.1,Fastened,No,35,48.3,Normal
+2025-05-03 17:58:00,T0617,EXC103,OP1001,Material Loading,Mining,Cloudy,Flat,Day,31.5,Expert,3,1588.2,4.4,11,6,24.6,Unfastened,Yes,30,27.0,Normal
+2025-05-17 09:39:00,T0618,EXC100,OP1007,Grading,Construction,Cloudy,Rocky,Night,26.9,Expert,4,1507.0,4.6,11,7,8.4,Fastened,No,35,45.6,Normal
+2025-05-17 20:00:00,T0619,EXC100,OP1003,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Incline,Night,22.9,Intermediate,4,1531.0,6.2,12,0,45.4,Fastened,No,60,83.7,Normal
+2025-05-19 03:52:00,T0620,EXC100,OP1000,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Day,30.3,Intermediate,4,1575.3,5.5,14,3,12.9,Fastened,No,60,75.3,Normal
+2025-05-23 06:56:00,T0621,EXC103,OP1001,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Flat,Day,26.4,Expert,3,1539.4,4.8,6,63,1.2,Fastened,Yes,60,77.3,Unusual
+2025-05-03 01:31:00,T0622,EXC101,OP1003,Demolition,Construction,Sunny,Incline,Day,23.3,Intermediate,8,1546.7,5.1,10,5,40.5,Fastened,No,90,122.2,Normal
+2025-05-11 19:06:00,T0623,EXC102,OP1001,Material Loading,Construction,Cloudy,Incline,Day,36.4,Expert,8,1555.3,0.5,1,11,5.0,Fastened,No,30,36.4,Normal
+2025-05-26 09:54:00,T0624,EXC102,OP1003,Trenching,Construction,Windy,Rocky,Day,33.5,Intermediate,8,1544.9,1.5,4,4,25.1,Unfastened,Yes,45,59.8,Normal
+2025-05-04 06:39:00,T0625,EXC101,OP1005,Material Loading,Mining,Rainy,Incline,Day,30.3,Beginner,8,1554.6,1.2,3,1,7.6,Fastened,No,30,59.8,Normal
+2025-05-16 12:28:00,T0626,EXC103,OP1006,Demolition,Underground Hard-Rock Mining,Sunny,Incline,Night,31.1,Beginner,3,1539.5,1.5,2,17,9.8,Fastened,No,90,143.1,Normal
+2025-05-16 15:45:00,T0627,EXC100,OP1007,Grading,Underground Hard-Rock Mining,Rainy,Rocky,Day,19.0,Expert,4,1591.4,5.8,12,17,41.5,Fastened,No,35,45.8,Normal
+2025-05-24 01:55:00,T0628,EXC104,OP1004,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Day,18.2,Beginner,6,1572.4,1.8,2,14,42.4,Fastened,No,30,56.6,Normal
+2025-05-26 02:54:00,T0629,EXC103,OP1000,Demolition,Mining,Windy,Flat,Night,35.8,Intermediate,3,1572.7,6.9,14,40,20.5,Fastened,No,90,116.7,Normal
+2025-05-03 12:19:00,T0630,EXC104,OP1002,Material Loading,Construction,Windy,Flat,Night,24.0,Expert,6,1539.1,2.9,9,2,14.5,Fastened,No,30,29.7,Normal
+2025-05-18 16:22:00,T0631,EXC104,OP1001,Material Loading,Mining,Windy,Incline,Day,30.9,Expert,6,1574.8,4.3,6,30,18.4,Fastened,No,30,44.7,Normal
+2025-05-25 17:04:00,T0632,EXC105,OP1005,Demolition,Underground Hard-Rock Mining,Rainy,Flat,Day,15.6,Beginner,5,1559.0,3.1,5,31,13.1,Fastened,No,90,147.1,Normal
+2025-05-05 20:30:00,T0633,EXC105,OP1002,Grading,Underground Hard-Rock Mining,Windy,Rocky,Day,18.6,Expert,5,1514.3,2.5,4,7,22.1,Fastened,No,35,42.6,Normal
+2025-05-15 10:46:00,T0634,EXC102,OP1004,Trenching,Mining,Sunny,Rocky,Day,29.8,Beginner,8,1535.6,2.3,4,10,24.1,Unfastened,Yes,45,68.3,Normal
+2025-05-14 13:14:00,T0635,EXC105,OP1003,Grading,Construction,Cloudy,Rocky,Day,28.6,Intermediate,5,1576.8,4.0,8,3,30.5,Fastened,No,35,41.5,Normal
+2025-05-15 07:23:00,T0636,EXC103,OP1004,Material Loading,Mining,Cloudy,Rocky,Day,34.3,Beginner,3,1596.8,5.0,7,42,19.9,Fastened,No,30,53.9,Normal
+2025-05-07 20:44:00,T0637,EXC102,OP1007,Grading,Underground Hard-Rock Mining,Windy,Rocky,Day,35.3,Expert,8,1592.0,1.0,1,8,28.2,Fastened,No,35,44.7,Unusual
+2025-05-29 10:57:00,T0638,EXC105,OP1001,Earth Excavation,Mining,Windy,Rocky,Night,28.8,Expert,5,1547.0,3.2,7,3,21.3,Fastened,No,60,75.8,Normal
+2025-05-06 12:54:00,T0639,EXC105,OP1003,Earth Excavation,Underground Hard-Rock Mining,Rainy,Incline,Night,23.6,Intermediate,5,1501.3,8.5,14,35,22.9,Fastened,No,60,109.8,Unusual
+2025-05-01 14:30:00,T0640,EXC103,OP1004,Trenching,Underground Hard-Rock Mining,Sunny,Incline,Day,29.0,Beginner,3,1515.4,6.9,10,49,46.9,Fastened,Yes,45,82.5,Normal
+2025-05-08 10:16:00,T0641,EXC103,OP1005,Trenching,Construction,Windy,Rocky,Day,26.8,Beginner,3,1527.2,1.0,2,3,15.3,Fastened,No,45,74.5,Normal
+2025-05-07 18:55:00,T0642,EXC100,OP1005,Demolition,Mining,Cloudy,Rocky,Night,42.7,Beginner,4,1578.1,2.5,4,9,6.0,Fastened,No,90,144.3,Normal
+2025-05-29 21:21:00,T0643,EXC101,OP1001,Trenching,Construction,Windy,Incline,Day,30.4,Expert,8,1573.5,6.6,12,14,31.0,Unfastened,Yes,45,60.6,Normal
+2025-05-06 22:16:00,T0644,EXC105,OP1001,Earth Excavation,Construction,Cloudy,Incline,Day,31.6,Expert,5,1522.7,1.0,2,2,3.6,Fastened,No,60,70.5,Normal
+2025-05-07 07:11:00,T0645,EXC100,OP1007,Trenching,Underground Hard-Rock Mining,Windy,Flat,Night,21.0,Expert,4,1586.4,3.7,6,34,28.1,Fastened,No,45,53.7,Normal
+2025-05-03 06:33:00,T0646,EXC105,OP1006,Demolition,Construction,Sunny,Rocky,Day,22.3,Beginner,5,1521.4,5.9,10,38,1.1,Fastened,Yes,90,140.3,Normal
+2025-05-12 04:48:00,T0647,EXC104,OP1000,Earth Excavation,Mining,Sunny,Incline,Day,37.3,Intermediate,6,1567.8,0.5,1,10,8.8,Fastened,No,60,87.2,Normal
+2025-05-30 11:00:00,T0648,EXC103,OP1006,Demolition,Mining,Cloudy,Flat,Night,36.8,Beginner,3,1545.6,5.4,12,23,29.6,Fastened,No,90,127.9,Normal
+2025-05-04 00:36:00,T0649,EXC104,OP1002,Grading,Underground Hard-Rock Mining,Cloudy,Flat,Day,30.8,Expert,6,1543.6,1.6,2,16,20.4,Fastened,No,35,48.0,Normal
+2025-05-27 00:52:00,T0650,EXC102,OP1005,Material Loading,Mining,Rainy,Rocky,Day,27.3,Beginner,8,1565.9,2.8,3,31,43.7,Unfastened,Yes,30,61.2,Normal
+2025-05-23 02:17:00,T0651,EXC105,OP1003,Demolition,Construction,Cloudy,Rocky,Day,28.1,Intermediate,5,1552.1,1.1,2,2,36.9,Fastened,No,90,118.6,Normal
+2025-05-25 14:39:00,T0652,EXC105,OP1004,Trenching,Mining,Rainy,Incline,Day,28.1,Beginner,5,1551.7,8.7,12,61,2.5,Fastened,Yes,45,103.6,Unusual
+2025-05-18 15:17:00,T0653,EXC100,OP1007,Demolition,Construction,Rainy,Incline,Day,32.1,Expert,4,1539.3,4.5,8,12,25.5,Fastened,No,90,126.1,Normal
+2025-05-05 23:40:00,T0654,EXC105,OP1002,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Night,24.4,Expert,5,1576.3,0.6,1,4,37.9,Fastened,No,30,28.8,Normal
+2025-05-24 13:53:00,T0655,EXC104,OP1004,Earth Excavation,Construction,Sunny,Flat,Night,29.4,Beginner,6,1503.5,2.3,5,13,25.9,Fastened,No,60,81.8,Normal
+2025-05-20 14:58:00,T0656,EXC105,OP1007,Grading,Construction,Rainy,Incline,Day,33.4,Expert,5,1571.6,3.2,6,8,35.4,Fastened,No,35,38.8,Normal
+2025-05-03 13:39:00,T0657,EXC102,OP1006,Earth Excavation,Construction,Cloudy,Incline,Day,21.9,Beginner,8,1539.8,7.8,14,21,20.0,Fastened,No,60,108.0,Normal
+2025-05-26 10:42:00,T0658,EXC103,OP1001,Earth Excavation,Mining,Sunny,Incline,Day,32.5,Expert,3,1525.2,6.0,12,16,31.1,Fastened,No,60,76.2,Normal
+2025-05-11 22:59:00,T0659,EXC101,OP1001,Trenching,Construction,Sunny,Rocky,Day,24.4,Expert,8,1550.8,3.3,5,10,27.4,Fastened,No,45,48.8,Normal
+2025-05-02 00:11:00,T0660,EXC103,OP1004,Material Loading,Construction,Sunny,Incline,Day,30.0,Beginner,3,1565.9,2.8,5,16,14.2,Fastened,No,30,48.5,Normal
+2025-05-22 20:18:00,T0661,EXC100,OP1002,Demolition,Underground Hard-Rock Mining,Sunny,Rocky,Night,17.7,Expert,4,1523.2,3.3,3,54,2.9,Unfastened,Yes,90,111.2,Normal
+2025-05-29 20:08:00,T0662,EXC101,OP1007,Earth Excavation,Underground Hard-Rock Mining,Rainy,Flat,Day,19.9,Expert,8,1595.4,5.5,9,35,24.3,Fastened,No,60,74.9,Normal
+2025-05-26 14:11:00,T0663,EXC103,OP1005,Material Loading,Mining,Rainy,Rocky,Night,40.5,Beginner,3,1547.6,1.4,3,10,35.2,Unfastened,Yes,30,55.5,Normal
+2025-05-24 15:57:00,T0664,EXC101,OP1004,Earth Excavation,Mining,Sunny,Incline,Day,33.3,Beginner,8,1559.7,3.9,6,15,45.0,Fastened,No,60,111.4,Normal
+2025-05-25 23:15:00,T0665,EXC105,OP1002,Grading,Mining,Cloudy,Flat,Day,38.4,Expert,5,1536.7,2.9,6,19,6.8,Fastened,No,35,39.5,Normal
+2025-05-28 15:50:00,T0666,EXC103,OP1005,Demolition,Construction,Rainy,Incline,Day,29.8,Beginner,3,1545.0,2.9,5,15,43.9,Fastened,No,90,176.0,Normal
+2025-05-23 22:28:00,T0667,EXC105,OP1006,Material Loading,Construction,Rainy,Incline,Night,25.6,Beginner,5,1577.2,6.0,11,23,40.6,Fastened,No,30,63.4,Normal
+2025-05-24 05:32:00,T0668,EXC101,OP1007,Trenching,Mining,Rainy,Incline,Day,29.5,Expert,8,1538.1,3.9,5,33,49.8,Fastened,No,45,73.4,Normal
+2025-05-06 19:35:00,T0669,EXC103,OP1004,Demolition,Construction,Windy,Flat,Night,32.1,Beginner,3,1560.9,3.6,8,10,25.8,Fastened,No,90,137.6,Normal
+2025-05-16 01:26:00,T0670,EXC100,OP1005,Demolition,Construction,Sunny,Rocky,Day,41.4,Beginner,4,1508.8,1.1,1,6,37.5,Fastened,No,90,136.3,Normal
+2025-05-09 23:29:00,T0671,EXC103,OP1001,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Flat,Day,17.5,Expert,3,1555.5,2.8,5,13,47.4,Fastened,No,60,57.2,Normal
+2025-05-20 12:18:00,T0672,EXC101,OP1005,Demolition,Underground Hard-Rock Mining,Rainy,Incline,Day,18.3,Beginner,8,1597.7,2.1,3,4,38.4,Fastened,No,90,173.9,Normal
+2025-05-26 12:34:00,T0673,EXC104,OP1002,Earth Excavation,Mining,Sunny,Flat,Day,39.9,Expert,6,1554.2,3.7,9,12,12.9,Fastened,No,60,64.6,Normal
+2025-05-01 06:56:00,T0674,EXC105,OP1004,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Day,23.3,Beginner,5,1582.2,4.5,10,1,42.8,Fastened,No,30,51.9,Normal
+2025-05-01 21:44:00,T0675,EXC102,OP1001,Material Loading,Construction,Sunny,Flat,Day,30.2,Expert,8,1553.1,4.8,14,5,22.4,Fastened,No,30,34.5,Normal
+2025-05-22 15:43:00,T0676,EXC103,OP1004,Trenching,Underground Hard-Rock Mining,Windy,Incline,Day,23.7,Beginner,3,1587.6,2.2,4,0,44.0,Unfastened,Yes,45,82.5,Normal
+2025-05-16 12:36:00,T0677,EXC101,OP1001,Demolition,Construction,Sunny,Flat,Night,31.2,Expert,8,1528.6,4.9,14,0,24.7,Fastened,No,90,89.5,Normal
+2025-05-02 17:28:00,T0678,EXC101,OP1006,Earth Excavation,Construction,Rainy,Rocky,Day,21.2,Beginner,8,1505.4,3.9,7,14,6.0,Fastened,No,60,112.3,Normal
+2025-05-30 17:40:00,T0679,EXC102,OP1004,Trenching,Construction,Windy,Rocky,Night,22.4,Beginner,8,1598.4,5.6,9,30,42.3,Fastened,No,45,90.8,Normal
+2025-05-06 00:00:00,T0680,EXC105,OP1002,Earth Excavation,Mining,Windy,Rocky,Night,28.7,Expert,5,1523.0,2.1,6,3,3.9,Fastened,No,60,69.2,Normal
+2025-05-31 03:00:00,T0681,EXC103,OP1006,Earth Excavation,Construction,Windy,Rocky,Day,27.3,Beginner,3,1562.6,2.5,6,11,4.1,Fastened,No,60,104.9,Normal
+2025-05-27 08:34:00,T0682,EXC100,OP1000,Trenching,Construction,Rainy,Flat,Day,32.6,Intermediate,4,1544.7,4.9,10,33,23.5,Fastened,No,45,72.4,Normal
+2025-05-02 08:47:00,T0683,EXC105,OP1007,Earth Excavation,Construction,Cloudy,Incline,Night,27.2,Expert,5,1511.2,4.0,8,3,37.8,Unfastened,Yes,60,81.4,Normal
+2025-05-04 18:39:00,T0684,EXC104,OP1006,Demolition,Underground Hard-Rock Mining,Rainy,Rocky,Day,22.3,Beginner,6,1549.5,1.7,2,1,47.6,Unfastened,Yes,90,162.1,Normal
+2025-05-21 01:25:00,T0685,EXC100,OP1003,Demolition,Construction,Rainy,Incline,Day,22.3,Intermediate,4,1516.0,6.2,11,15,35.1,Unfastened,Yes,90,141.3,Normal
+2025-05-17 15:00:00,T0686,EXC101,OP1007,Earth Excavation,Construction,Rainy,Rocky,Day,32.3,Expert,8,1596.6,4.9,11,6,9.0,Fastened,No,60,73.6,Normal
+2025-05-01 19:44:00,T0687,EXC101,OP1000,Trenching,Mining,Rainy,Flat,Night,22.6,Intermediate,8,1563.4,2.8,9,0,9.7,Fastened,No,45,56.1,Normal
+2025-05-16 15:47:00,T0688,EXC101,OP1005,Grading,Mining,Cloudy,Incline,Day,23.5,Beginner,8,1545.1,8.6,12,61,41.4,Fastened,Yes,35,83.2,Unusual
+2025-05-05 19:29:00,T0689,EXC105,OP1003,Trenching,Construction,Sunny,Flat,Night,31.4,Intermediate,5,1524.9,5.8,14,9,31.2,Fastened,No,45,52.3,Normal
+2025-05-03 20:50:00,T0690,EXC101,OP1006,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Day,27.0,Beginner,8,1568.7,3.4,6,8,11.4,Unfastened,Yes,60,103.7,Normal
+2025-05-02 09:00:00,T0691,EXC105,OP1007,Material Loading,Underground Hard-Rock Mining,Sunny,Flat,Day,18.4,Expert,5,1551.1,1.8,4,8,25.8,Fastened,No,30,32.3,Normal
+2025-05-21 18:00:00,T0692,EXC104,OP1005,Trenching,Construction,Sunny,Rocky,Day,27.1,Beginner,6,1539.9,4.3,9,14,18.2,Fastened,No,45,75.6,Normal
+2025-05-27 10:30:00,T0693,EXC103,OP1001,Material Loading,Construction,Windy,Incline,Night,24.8,Expert,3,1590.3,8.4,11,71,35.5,Fastened,Yes,30,54.7,Unusual
+2025-05-04 15:27:00,T0694,EXC103,OP1006,Demolition,Underground Hard-Rock Mining,Rainy,Incline,Day,19.4,Beginner,3,1574.2,2.1,3,16,49.7,Fastened,No,90,177.0,Normal
+2025-05-22 10:02:00,T0695,EXC104,OP1007,Trenching,Construction,Cloudy,Incline,Night,34.3,Expert,6,1591.8,5.2,10,11,24.4,Unfastened,Yes,45,49.3,Normal
+2025-05-17 08:51:00,T0696,EXC105,OP1006,Trenching,Underground Hard-Rock Mining,Sunny,Incline,Day,22.1,Beginner,5,1559.0,3.3,5,15,35.1,Fastened,No,45,75.4,Normal
+2025-05-18 12:15:00,T0697,EXC101,OP1001,Demolition,Underground Hard-Rock Mining,Windy,Rocky,Night,18.7,Expert,8,1587.0,1.0,3,0,37.4,Fastened,No,90,114.5,Normal
+2025-05-27 03:57:00,T0698,EXC102,OP1004,Demolition,Construction,Cloudy,Rocky,Day,33.5,Beginner,8,1558.0,4.7,12,1,1.7,Fastened,Yes,90,147.4,Normal
+2025-05-20 19:12:00,T0699,EXC103,OP1005,Grading,Underground Hard-Rock Mining,Sunny,Rocky,Day,14.4,Beginner,3,1501.0,6.0,8,68,20.0,Fastened,Yes,35,71.3,Unusual
+2025-05-04 02:18:00,T0700,EXC103,OP1002,Grading,Underground Hard-Rock Mining,Cloudy,Flat,Night,27.7,Expert,3,1578.1,2.6,5,14,48.3,Fastened,No,35,39.3,Normal
+2025-05-20 10:32:00,T0701,EXC101,OP1005,Demolition,Construction,Rainy,Rocky,Night,25.8,Beginner,8,1548.1,2.1,5,0,4.1,Fastened,No,90,172.6,Normal
+2025-05-08 13:24:00,T0702,EXC101,OP1001,Demolition,Construction,Windy,Flat,Night,32.7,Expert,8,1582.1,4.0,9,17,42.2,Fastened,No,90,97.0,Normal
+2025-05-22 04:23:00,T0703,EXC104,OP1005,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,27.2,Beginner,6,1500.9,2.1,4,12,41.7,Fastened,No,30,55.8,Normal
+2025-05-04 07:49:00,T0704,EXC104,OP1006,Earth Excavation,Mining,Cloudy,Rocky,Day,36.6,Beginner,6,1549.2,6.1,12,17,36.4,Unfastened,Yes,60,101.8,Normal
+2025-05-20 12:46:00,T0705,EXC101,OP1000,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Night,21.1,Intermediate,8,1582.3,0.7,2,3,39.8,Fastened,No,30,50.8,Normal
+2025-05-02 11:40:00,T0706,EXC102,OP1003,Grading,Mining,Sunny,Flat,Day,19.7,Intermediate,8,1593.8,4.9,12,2,0.6,Unfastened,Yes,35,45.7,Normal
+2025-05-20 10:40:00,T0707,EXC103,OP1000,Demolition,Construction,Windy,Flat,Day,33.5,Intermediate,3,1593.4,2.4,5,10,39.4,Fastened,No,90,108.7,Normal
+2025-05-29 20:16:00,T0708,EXC100,OP1003,Trenching,Underground Hard-Rock Mining,Cloudy,Incline,Day,20.6,Intermediate,4,1598.6,5.5,11,6,15.0,Fastened,No,45,64.0,Normal
+2025-05-09 22:22:00,T0709,EXC103,OP1006,Earth Excavation,Construction,Cloudy,Rocky,Day,36.6,Beginner,3,1567.9,4.7,3,78,29.0,Fastened,Yes,60,110.0,Unusual
+2025-05-28 21:29:00,T0710,EXC103,OP1007,Earth Excavation,Construction,Sunny,Rocky,Day,23.8,Expert,3,1501.5,1.5,1,31,39.5,Fastened,No,60,72.0,Unusual
+2025-05-12 17:57:00,T0711,EXC101,OP1003,Demolition,Mining,Cloudy,Flat,Night,36.0,Intermediate,8,1550.4,4.0,7,46,36.9,Fastened,Yes,90,120.8,Normal
+2025-05-08 02:14:00,T0712,EXC105,OP1004,Demolition,Mining,Sunny,Flat,Day,35.5,Beginner,5,1566.6,4.4,10,23,13.5,Fastened,No,90,121.7,Normal
+2025-05-27 08:09:00,T0713,EXC104,OP1003,Earth Excavation,Construction,Windy,Incline,Night,19.5,Intermediate,6,1556.6,5.7,6,55,33.8,Unfastened,Yes,60,105.1,Normal
+2025-05-15 12:22:00,T0714,EXC104,OP1007,Grading,Construction,Rainy,Incline,Night,30.8,Expert,6,1573.0,7.6,13,25,1.6,Unfastened,Yes,35,57.6,Normal
+2025-05-19 03:34:00,T0715,EXC102,OP1005,Grading,Construction,Sunny,Flat,Day,35.7,Beginner,8,1537.0,5.1,7,47,30.5,Unfastened,Yes,35,64.2,Normal
+2025-05-20 02:37:00,T0716,EXC100,OP1003,Grading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,21.6,Intermediate,4,1554.3,1.5,1,18,22.5,Fastened,No,35,60.8,Normal
+2025-05-27 06:46:00,T0717,EXC100,OP1000,Grading,Mining,Windy,Flat,Night,36.5,Intermediate,4,1562.0,3.8,7,34,10.3,Fastened,No,35,48.0,Normal
+2025-05-12 15:37:00,T0718,EXC101,OP1003,Trenching,Underground Hard-Rock Mining,Sunny,Rocky,Day,20.9,Intermediate,8,1538.7,2.6,4,31,40.2,Fastened,No,45,65.6,Normal
+2025-05-13 13:15:00,T0719,EXC104,OP1002,Trenching,Underground Hard-Rock Mining,Sunny,Rocky,Night,25.2,Expert,6,1517.8,6.6,14,2,48.8,Unfastened,Yes,45,44.7,Normal
+2025-05-26 20:58:00,T0720,EXC104,OP1001,Material Loading,Underground Hard-Rock Mining,Windy,Rocky,Night,20.8,Expert,6,1587.0,1.7,3,7,23.8,Fastened,No,30,43.6,Normal
+2025-05-06 01:28:00,T0721,EXC105,OP1000,Earth Excavation,Mining,Rainy,Flat,Day,35.5,Intermediate,5,1518.0,6.4,14,27,16.2,Fastened,No,60,86.8,Normal
+2025-05-06 05:49:00,T0722,EXC100,OP1003,Material Loading,Underground Hard-Rock Mining,Rainy,Incline,Day,24.8,Intermediate,4,1500.7,3.4,6,11,46.8,Fastened,No,30,52.1,Normal
+2025-05-03 16:35:00,T0723,EXC101,OP1007,Material Loading,Mining,Cloudy,Flat,Night,36.6,Expert,8,1500.5,3.9,1,74,46.8,Fastened,Yes,30,57.1,Unusual
+2025-05-12 10:28:00,T0724,EXC105,OP1007,Demolition,Mining,Sunny,Incline,Day,26.3,Expert,5,1562.3,6.1,11,19,20.8,Fastened,No,90,113.2,Normal
+2025-05-04 21:51:00,T0725,EXC101,OP1003,Trenching,Construction,Sunny,Rocky,Day,24.4,Intermediate,8,1503.8,2.8,5,18,22.9,Fastened,No,45,66.1,Normal
+2025-05-13 08:27:00,T0726,EXC102,OP1001,Material Loading,Mining,Sunny,Rocky,Day,28.3,Expert,8,1530.4,3.5,6,2,13.3,Fastened,No,30,35.7,Normal
+2025-05-27 17:21:00,T0727,EXC100,OP1007,Grading,Underground Hard-Rock Mining,Cloudy,Incline,Day,29.5,Expert,4,1541.7,1.9,3,2,16.0,Fastened,No,35,41.1,Normal
+2025-05-06 10:10:00,T0728,EXC103,OP1005,Earth Excavation,Construction,Cloudy,Incline,Night,19.1,Beginner,3,1524.1,1.1,1,15,11.0,Fastened,No,60,111.7,Normal
+2025-05-23 09:31:00,T0729,EXC103,OP1005,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Rocky,Day,21.6,Beginner,3,1509.4,4.5,7,22,45.8,Fastened,No,60,96.4,Normal
+2025-05-21 15:53:00,T0730,EXC100,OP1007,Grading,Mining,Sunny,Rocky,Night,39.7,Expert,4,1567.9,3.9,8,7,18.8,Fastened,No,35,38.8,Normal
+2025-05-11 18:03:00,T0731,EXC103,OP1005,Trenching,Mining,Cloudy,Flat,Night,26.0,Beginner,3,1505.3,3.2,8,15,18.6,Fastened,No,45,61.1,Normal
+2025-05-10 08:27:00,T0732,EXC101,OP1004,Grading,Construction,Cloudy,Incline,Day,29.1,Beginner,8,1567.4,1.1,1,11,11.8,Unfastened,Yes,35,67.1,Normal
+2025-05-13 15:48:00,T0733,EXC105,OP1005,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Day,9.4,Beginner,5,1544.6,3.3,7,15,44.6,Fastened,No,30,46.2,Normal
+2025-05-25 11:02:00,T0734,EXC100,OP1003,Earth Excavation,Construction,Sunny,Flat,Day,27.9,Intermediate,4,1501.9,3.5,8,1,33.5,Fastened,No,60,64.8,Normal
+2025-05-08 19:06:00,T0735,EXC102,OP1001,Material Loading,Underground Hard-Rock Mining,Cloudy,Rocky,Day,28.6,Expert,8,1547.8,5.1,4,74,6.4,Fastened,Yes,30,60.9,Unusual
+2025-05-13 15:58:00,T0736,EXC105,OP1004,Demolition,Mining,Sunny,Flat,Day,30.7,Beginner,5,1567.9,1.3,3,5,30.6,Fastened,No,90,128.6,Normal
+2025-05-26 17:12:00,T0737,EXC103,OP1003,Grading,Mining,Sunny,Incline,Day,32.4,Intermediate,3,1508.4,6.5,13,8,14.1,Fastened,No,35,42.0,Normal
+2025-05-06 01:55:00,T0738,EXC103,OP1002,Material Loading,Mining,Rainy,Incline,Day,31.2,Expert,3,1575.0,8.8,11,82,29.6,Unfastened,Yes,30,64.1,Unusual
+2025-05-24 21:49:00,T0739,EXC102,OP1005,Material Loading,Mining,Sunny,Incline,Day,32.0,Beginner,8,1508.8,6.4,12,12,15.9,Fastened,No,30,43.5,Normal
+2025-05-21 00:17:00,T0740,EXC104,OP1002,Trenching,Mining,Sunny,Incline,Day,25.4,Expert,6,1558.4,1.8,1,35,19.0,Fastened,No,45,54.3,Normal
+2025-05-23 12:40:00,T0741,EXC103,OP1001,Earth Excavation,Mining,Sunny,Flat,Night,27.7,Expert,3,1565.8,4.3,11,7,24.5,Fastened,No,60,56.0,Normal
+2025-05-14 05:42:00,T0742,EXC102,OP1007,Material Loading,Construction,Rainy,Rocky,Day,29.3,Expert,8,1572.4,0.6,2,0,10.0,Fastened,No,30,37.5,Unusual
+2025-05-29 13:16:00,T0743,EXC102,OP1007,Trenching,Mining,Windy,Incline,Night,36.7,Expert,8,1525.4,1.8,1,30,3.5,Fastened,No,45,64.4,Normal
+2025-05-24 12:43:00,T0744,EXC101,OP1004,Grading,Mining,Rainy,Rocky,Day,34.6,Beginner,8,1516.6,3.7,9,5,6.8,Fastened,No,35,62.7,Normal
+2025-05-05 22:29:00,T0745,EXC105,OP1000,Earth Excavation,Mining,Rainy,Rocky,Night,46.0,Intermediate,5,1520.1,1.7,4,2,22.1,Fastened,No,60,88.7,Normal
+2025-05-16 20:27:00,T0746,EXC105,OP1006,Material Loading,Underground Hard-Rock Mining,Cloudy,Flat,Day,20.8,Beginner,5,1538.0,3.9,9,8,48.5,Unfastened,Yes,30,41.5,Normal
+2025-05-01 06:05:00,T0747,EXC103,OP1000,Material Loading,Underground Hard-Rock Mining,Cloudy,Incline,Day,28.8,Intermediate,3,1577.7,2.1,1,38,22.0,Fastened,No,30,51.2,Unusual
+2025-05-07 19:08:00,T0748,EXC103,OP1003,Demolition,Mining,Cloudy,Flat,Day,31.2,Intermediate,3,1554.5,2.7,4,37,31.5,Fastened,No,90,106.6,Normal
+2025-05-21 12:15:00,T0749,EXC105,OP1000,Grading,Underground Hard-Rock Mining,Sunny,Incline,Day,28.0,Intermediate,5,1556.8,5.9,11,18,39.8,Fastened,No,35,49.0,Normal
+2025-05-02 20:11:00,T0750,EXC103,OP1003,Grading,Construction,Sunny,Rocky,Day,33.7,Intermediate,3,1564.3,3.4,6,4,39.2,Fastened,No,35,40.3,Normal
+2025-05-04 10:35:00,T0751,EXC102,OP1002,Trenching,Mining,Windy,Incline,Day,27.8,Expert,8,1590.8,8.6,14,26,21.9,Fastened,No,45,66.6,Unusual
+2025-05-30 13:33:00,T0752,EXC105,OP1002,Trenching,Construction,Windy,Incline,Day,28.5,Expert,5,1561.4,6.8,14,12,1.5,Fastened,Yes,45,58.7,Normal
+2025-05-20 04:32:00,T0753,EXC104,OP1006,Demolition,Mining,Rainy,Flat,Day,39.6,Beginner,6,1594.2,3.4,8,8,26.4,Fastened,No,90,150.0,Normal
+2025-05-15 05:51:00,T0754,EXC102,OP1000,Material Loading,Underground Hard-Rock Mining,Rainy,Rocky,Day,23.1,Intermediate,8,1505.0,7.6,11,63,21.0,Fastened,Yes,30,69.2,Unusual
+2025-05-18 08:44:00,T0755,EXC100,OP1005,Material Loading,Construction,Windy,Rocky,Night,24.3,Beginner,4,1502.6,0.8,1,5,30.8,Unfastened,Yes,30,51.3,Unusual
+2025-05-26 05:49:00,T0756,EXC102,OP1007,Earth Excavation,Underground Hard-Rock Mining,Windy,Rocky,Night,15.7,Expert,8,1531.8,6.6,12,29,3.8,Fastened,No,60,83.9,Normal
+2025-05-27 13:26:00,T0757,EXC100,OP1006,Trenching,Underground Hard-Rock Mining,Sunny,Flat,Day,21.6,Beginner,4,1562.0,6.5,12,39,47.1,Fastened,No,45,71.1,Normal
+2025-05-27 16:37:00,T0758,EXC102,OP1003,Demolition,Mining,Rainy,Rocky,Night,31.0,Intermediate,8,1575.9,0.7,2,1,5.0,Fastened,No,90,148.8,Normal
+2025-05-05 19:44:00,T0759,EXC104,OP1006,Grading,Underground Hard-Rock Mining,Rainy,Flat,Night,21.1,Beginner,6,1595.3,3.4,7,13,19.4,Fastened,No,35,52.5,Normal
+2025-05-12 07:58:00,T0760,EXC102,OP1002,Grading,Underground Hard-Rock Mining,Windy,Incline,Night,34.0,Expert,8,1502.0,1.5,2,2,46.5,Fastened,No,35,47.4,Normal
+2025-05-14 10:15:00,T0761,EXC101,OP1001,Material Loading,Construction,Rainy,Flat,Day,40.1,Expert,8,1585.6,3.5,6,34,49.5,Fastened,No,30,55.5,Normal
+2025-05-16 05:08:00,T0762,EXC101,OP1004,Grading,Mining,Sunny,Rocky,Day,23.3,Beginner,8,1587.8,6.9,14,29,43.1,Fastened,No,35,70.1,Normal
+2025-05-25 17:38:00,T0763,EXC103,OP1005,Grading,Construction,Windy,Rocky,Day,27.2,Beginner,3,1566.1,5.7,13,7,21.2,Fastened,No,35,63.4,Normal
+2025-05-10 10:30:00,T0764,EXC102,OP1006,Material Loading,Mining,Sunny,Flat,Day,23.8,Beginner,8,1551.1,3.1,8,4,28.9,Unfastened,Yes,30,41.7,Normal
+2025-05-11 16:59:00,T0765,EXC101,OP1006,Earth Excavation,Construction,Windy,Rocky,Day,43.4,Beginner,8,1561.7,2.5,5,7,42.5,Fastened,No,60,106.3,Normal
+2025-05-27 18:14:00,T0766,EXC103,OP1000,Material Loading,Construction,Sunny,Flat,Day,31.0,Intermediate,3,1525.6,3.9,10,4,42.3,Fastened,No,30,34.4,Normal
+2025-05-13 03:58:00,T0767,EXC104,OP1003,Grading,Underground Hard-Rock Mining,Windy,Rocky,Day,25.8,Intermediate,6,1571.5,2.4,1,42,29.7,Fastened,No,35,65.1,Normal
+2025-05-05 11:26:00,T0768,EXC100,OP1007,Material Loading,Mining,Windy,Flat,Day,24.9,Expert,4,1501.4,3.2,7,11,30.1,Fastened,No,30,41.1,Normal
+2025-05-21 20:32:00,T0769,EXC104,OP1002,Earth Excavation,Construction,Sunny,Rocky,Day,34.1,Expert,6,1506.8,0.9,2,5,44.0,Fastened,No,60,65.0,Normal
+2025-05-10 03:23:00,T0770,EXC103,OP1001,Trenching,Mining,Cloudy,Flat,Night,32.0,Expert,3,1509.6,3.6,5,35,33.1,Unfastened,Yes,45,50.7,Normal
+2025-05-16 21:02:00,T0771,EXC100,OP1002,Trenching,Mining,Rainy,Rocky,Day,32.2,Expert,4,1557.8,1.8,2,22,25.7,Fastened,No,45,66.1,Normal
+2025-05-19 22:33:00,T0772,EXC103,OP1004,Material Loading,Mining,Windy,Incline,Night,33.4,Beginner,3,1555.3,3.3,5,18,24.4,Fastened,No,30,54.7,Normal
+2025-05-10 10:07:00,T0773,EXC103,OP1002,Material Loading,Mining,Sunny,Flat,Day,26.5,Expert,3,1552.7,5.7,13,21,41.7,Unfastened,Yes,30,34.4,Normal
+2025-05-10 07:35:00,T0774,EXC101,OP1005,Trenching,Mining,Rainy,Flat,Night,23.5,Beginner,8,1503.1,6.2,13,27,20.7,Unfastened,Yes,45,77.1,Normal
+2025-05-07 17:19:00,T0775,EXC104,OP1007,Earth Excavation,Underground Hard-Rock Mining,Cloudy,Flat,Day,20.7,Expert,6,1559.7,3.2,9,13,0.6,Fastened,Yes,60,62.7,Normal
+2025-05-26 22:46:00,T0776,EXC103,OP1004,Demolition,Construction,Windy,Rocky,Night,32.7,Beginner,3,1550.2,2.1,3,7,12.0,Fastened,No,90,144.1,Normal
+2025-05-21 04:50:00,T0777,EXC101,OP1004,Demolition,Mining,Cloudy,Flat,Day,35.0,Beginner,8,1519.6,4.5,10,10,38.3,Fastened,No,90,129.5,Normal
+2025-05-17 15:41:00,T0778,EXC102,OP1007,Trenching,Underground Hard-Rock Mining,Cloudy,Incline,Day,18.3,Expert,8,1529.1,6.6,12,7,18.1,Fastened,No,45,58.1,Normal
+2025-05-05 23:38:00,T0779,EXC104,OP1005,Material Loading,Underground Hard-Rock Mining,Windy,Incline,Night,20.4,Beginner,6,1549.4,1.1,2,10,40.9,Unfastened,Yes,30,55.9,Normal
+2025-05-12 16:02:00,T0780,EXC100,OP1004,Demolition,Construction,Cloudy,Incline,Day,40.8,Beginner,4,1536.3,2.5,5,15,2.4,Fastened,Yes,90,157.1,Normal
+2025-05-10 00:47:00,T0781,EXC101,OP1000,Earth Excavation,Mining,Cloudy,Rocky,Day,32.0,Intermediate,8,1567.5,6.8,14,24,42.9,Fastened,No,60,88.9,Normal
+2025-05-16 16:18:00,T0782,EXC100,OP1004,Grading,Underground Hard-Rock Mining,Cloudy,Rocky,Night,17.3,Beginner,4,1534.0,5.2,9,22,10.7,Unfastened,Yes,35,60.4,Normal
+2025-05-23 23:35:00,T0783,EXC101,OP1005,Trenching,Underground Hard-Rock Mining,Rainy,Flat,Night,26.3,Beginner,8,1524.8,5.7,13,15,46.6,Unfastened,Yes,45,74.6,Normal
+2025-05-24 15:55:00,T0784,EXC103,OP1005,Material Loading,Underground Hard-Rock Mining,Windy,Incline,Day,21.0,Beginner,3,1523.4,6.1,13,1,8.1,Fastened,No,30,55.5,Normal
+2025-05-20 23:20:00,T0785,EXC101,OP1001,Material Loading,Mining,Cloudy,Incline,Day,36.8,Expert,8,1565.6,3.5,6,7,32.6,Fastened,No,30,37.8,Normal
+2025-05-26 19:27:00,T0786,EXC105,OP1000,Trenching,Construction,Cloudy,Rocky,Day,23.6,Intermediate,5,1560.9,6.5,14,12,5.8,Fastened,No,45,62.4,Normal
+2025-05-20 02:38:00,T0787,EXC100,OP1001,Material Loading,Mining,Cloudy,Incline,Day,21.7,Expert,4,1596.9,3.4,2,46,1.8,Fastened,Yes,30,49.4,Unusual
+2025-05-25 16:21:00,T0788,EXC102,OP1000,Trenching,Mining,Cloudy,Rocky,Day,29.0,Intermediate,8,1505.8,3.5,3,47,2.1,Fastened,Yes,45,69.1,Unusual
+2025-05-06 19:47:00,T0789,EXC102,OP1000,Demolition,Construction,Rainy,Rocky,Night,24.7,Intermediate,8,1574.4,1.9,2,8,8.7,Fastened,No,90,144.2,Normal
+2025-05-25 21:50:00,T0790,EXC101,OP1003,Earth Excavation,Underground Hard-Rock Mining,Rainy,Incline,Day,16.4,Intermediate,8,1592.3,5.4,10,11,28.7,Fastened,No,60,101.8,Normal
+2025-05-06 10:53:00,T0791,EXC100,OP1005,Demolition,Mining,Windy,Rocky,Day,35.7,Beginner,4,1561.5,4.4,9,3,41.9,Fastened,No,90,152.1,Normal
+2025-05-24 11:24:00,T0792,EXC105,OP1002,Material Loading,Mining,Cloudy,Flat,Day,34.1,Expert,5,1531.5,6.6,11,59,18.2,Fastened,Yes,30,48.8,Normal
+2025-05-25 04:11:00,T0793,EXC104,OP1001,Trenching,Underground Hard-Rock Mining,Sunny,Incline,Night,23.1,Expert,6,1593.1,5.1,10,0,3.0,Fastened,No,45,49.3,Normal
+2025-05-18 06:34:00,T0794,EXC104,OP1004,Trenching,Mining,Windy,Incline,Day,31.1,Beginner,6,1583.1,1.9,3,13,13.7,Unfastened,Yes,45,82.0,Normal
+2025-05-11 13:27:00,T0795,EXC103,OP1003,Grading,Construction,Cloudy,Incline,Night,27.2,Intermediate,3,1594.2,4.3,7,24,19.6,Unfastened,Yes,35,50.2,Normal
+2025-05-13 16:04:00,T0796,EXC100,OP1007,Demolition,Underground Hard-Rock Mining,Rainy,Rocky,Day,20.4,Expert,4,1559.9,3.0,7,5,14.0,Fastened,No,90,116.7,Normal
+2025-05-30 22:53:00,T0797,EXC104,OP1006,Trenching,Mining,Rainy,Flat,Day,45.8,Beginner,6,1526.8,4.5,4,67,22.5,Fastened,Yes,45,98.2,Unusual
+2025-05-28 03:32:00,T0798,EXC103,OP1002,Material Loading,Underground Hard-Rock Mining,Sunny,Rocky,Day,23.6,Expert,3,1538.1,3.0,6,9,32.5,Fastened,No,30,38.2,Normal
+2025-05-23 05:02:00,T0799,EXC103,OP1000,Demolition,Construction,Rainy,Incline,Day,35.7,Intermediate,3,1582.6,6.4,14,1,4.1,Fastened,No,90,139.9,Normal
+2025-05-09 02:14:00,T0800,EXC102,OP1005,Demolition,Underground Hard-Rock Mining,Cloudy,Incline,Day,19.9,Beginner,8,1589.8,5.6,11,4,43.9,Fastened,No,90,152.5,Normal

@@ -1,0 +1,35 @@
+{
+    "anomaly_detection": {
+        "model": "IsolationForest",
+        "features": [
+            "Fuel Used (L)",
+            "Load Cycles",
+            "Idling Time (min)",
+            "Engine Hours"
+        ],
+        "total_records": 800,
+        "normal_count": 720,
+        "unusual_count": 80,
+        "anomaly_rate": 0.1,
+        "anomaly_rate_percentage": "10.0%"
+    },
+    "task_time_prediction": {
+        "model": "XGBoost Regressor",
+        "train_samples": 640,
+        "test_samples": 160,
+        "mae_minutes": 4.46,
+        "r2_score": 0.9724,
+        "feature_importances": {
+            "Task Type": 0.7816,
+            "Operator Skill": 0.0981,
+            "Estimated Time (min)": 0.0733,
+            "Terrain": 0.0183,
+            "Weather": 0.0108,
+            "Idling Time (min)": 0.0106,
+            "Machine Age (yrs)": 0.0031,
+            "Ambient Temperature (C)": 0.0019,
+            "Site Type": 0.0012,
+            "Shift": 0.0011
+        }
+    }
+}
